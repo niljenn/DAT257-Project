@@ -1,2 +1,20 @@
 SOCIAL CONTRACT
 
+
+1. We have to inform the others, if we can't make it to the meeting, before it starts, and during the meeting
+everyone has to contribute to the discussions. 
+
+2. Everyone has to attend at least one meeting per week.
+
+3. When a decision can't be made because of different opinions, then majority voting is used. If the voting 
+is even then the scrum master decides. 
+
+4. The goal is to hand in the assignments at latest on thursdays at 17:59.
+
+5. After the 3rd time of being late, that person has to bring fika. Up to 5 min late is okay. 
+
+
+
+
+
+
