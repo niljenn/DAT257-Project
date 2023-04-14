@@ -1,0 +1,13 @@
+Sprint 1 Reflection
+
+For next week I want to understand HTML and CSS better, so that I can be more efficient when programming
+for the website. The main focus lies in understanding how HTML is built and how to use the different
+elements together. It would also be beneficial to understand more of the attributes in CSS so that I can build
+the different elements correctly and also be more efficient with it. Regarding Scrum, I feel like I need to get a 
+better understanding of how the backlog is used to help with choosing what tasks to prioritize that Sprint. 
+As a team I belvieve wee should work on being more clear about plans and meetings.
+
+My contribution to the team's deliveries this week was learning HTML and CSS, having this knowledge makes it
+possible to help the others when starting off. I also contribute in the discussions to keep the ideas flowing, and 
+so that we as a team can understand each other better. In the next Sprint I will try to ask more questions to 
+the other group members to understand them better and not have any miscommunication. 
