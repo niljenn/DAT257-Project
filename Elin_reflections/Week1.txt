@@ -1,0 +1,17 @@
+1. What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc? 
+
+I think our teamwork so far is going well considering how early in the process we are. Waht I could do better regarding 
+teamwork is be a better listener and. Other than that, we do have some different opinions on how to plan our project 
+in a agile way but hopefully we will learn more about that next week when we can clearify some stuff with our TA. I also 
+wanna learn more about the basics in web programing. We have learned the importance of making the To-Do's more precise
+and to divide them into smaller groups than we first thought to make them easier to understand and use.
+
+2. What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+
+I have focused mostly on the mockup/prototype for our website this sprint and I think that have helped us to commonly
+visualise our product to make it easier to discuss and make sure we are working towards the same goal. The next week I
+would like to learn more about HTML so that we can work together in teams with the same base knowledge. I think we 
+will work togther more effecient next week now that we have sorted out most of the backlog and now can focus on 
+developing our product. We haven't delegated any specific workload for next week yet but until then my main goal will 
+be to learn as much as possible about web programming. I could also learn more about the agile process to make sure I
+know and don't just think I know, since there has been some confusion around it.
