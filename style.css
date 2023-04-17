@@ -10,14 +10,37 @@
     background-size: cover;
 }
 
+.navbar{
+    height: 75px;
+    width: 100%;
+    box-sizing: border-box;
+    /*sborder: 2px solid red;*/
+}
+
+.icon{
+    width: 250px;
+    height: 70px;
+    float: left;
+    /*border: 2px solid blue;*/
+}
+
+.logo{
+    color: rgb(61, 122, 82);
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    padding-left: 25px;
+    float: left;
+    padding-top: 15px;
+}
+
 .feature{
     height: 350px;
     width: 100%; /*Fills whole width without creating the scroll bar from side to side*/
-    border: 2px solid rgb(65, 117, 82);
+    border: 2px solid rgb(92, 146, 110);
     float: left;
-    margin-top: 70px;
+    margin-top: 3px;
     box-sizing: border-box; /*Padding and border are included in width/height*/
-    background-color: rgb(65,117,82);
+    background-color: rgb(92,146,110);
 }
 
 .feature_text{
