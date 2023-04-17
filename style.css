@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(237, 239, 234);
+    background-position: center;
+    background-size: cover;
+}
+
+.feature{
+    height: 350px;
+    width: 100%; /*Fills whole width without creating the scroll bar from side to side*/
+    border: 2px solid rgb(65, 117, 82);
+    float: left;
+    margin-top: 70px;
+    box-sizing: border-box; /*Padding and border are included in width/height*/
+    background-color: rgb(65,117,82);
+}
+
+.feature_text{
+    color: black;
+    font-size: 60px;
+    font-family: 'Times New Roman';
+    float: left;
+    margin-left: 550px; /*I think this is the center/half of width*/
+    margin-top: 115px; /*Height=350, 350/2=175, 175-60=115px, should be half of height*/
+}
