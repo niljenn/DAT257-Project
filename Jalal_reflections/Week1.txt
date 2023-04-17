@@ -1,0 +1,10 @@
+What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc? 
+I would like to get better in using the frontend development, we have focused on the backend side of software development, so it is existing to turn how to use HTML, css and java script. I think we should focus a lot on having the mindset of an agile software developer, we have never worked in an agile way before which make it a bit hard to design our website without doing different things at once. We hade that problem at the beginning of the sprint but we have since discussed the issue and we are on the right track now
+
+
+ What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+I helped the team by offering some ideas on the design of the website, I and some other group members have had also a task to start a website, each on their own. which I have done. I wrote some user story, and I believe that I have contributed in a better understanding of the agile method and how to best think and plan for the next sprint with the agile method in mind 
+
+changes/improvements from last week's reflection?
+Last week we decided which project we would like to work with so there is not much changes or improvement from the last week as it is not really relevant to the first sprint.
+

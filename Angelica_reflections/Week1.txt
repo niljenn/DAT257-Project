@@ -1,0 +1,27 @@
+- What do I want to learn or understand better?
+
+During this first sprint of our group project, I have mainly focused on gaining a better understanding of agile project management and its benefits when working in a team. 
+I have learned that communication, teamwork, and collaboration are critical to success with this approach.
+Going forward, I want to further explore the different agile methods, such as Scrum and Kanban, and how they can be applied to projects and teams in the best way. 
+I am also looking forward to learning more about the tools and technologies that support the agile way of working, including project management, communication and collaboration tools, programming languages, and more.
+I believe that a good understanding of the relevant tools and techniques can help our team work more efficiently. 
+Additionally, I want to improve my teamwork skills and learn effective collaboration strategies to ensure our team can work together smoothly and productively in the upcoming sprints.
+My goal is to develop a deep understanding of agile software development and its practical applications. I am excited to continue learning and growing in this area throughout the course.
+
+
+
+-What is my contribution towards the team's deliveries? How can I help my team do better next sprint?
+
+During this first sprint, I took some time to learn HTML, CSS, and JavaScript so that I can contribute more to the team's coding efforts going forward. 
+I also created a simple test website with a button leading to another website to practice these skills.
+While I was active and present at all team meetings, I unfortunately had some personal matters this week that limited my availability to contribute as much as I had hoped to the first version of our website.
+Next sprint I plan to mostly focus on my main role as a programmer and dedicate more time to coding than designing, other than discussing the design ideas that the designers provide. 
+Since I have now learned a little bit of the necessary programming languages, I will hopefully be able to work more effectively and contribute more to the team's deliverables.
+To help the team do better in the next sprint, I will make sure that I am available and present to participate fully in all team meetings and discussions. 
+I will also try to communicate with my team members as clearly and regularly as possible, to ensure that we are all on the same page and that I am contributing in ways that are helpful to the team. 
+Finally, I will do my best to stay organized and prioritize my tasks effectively.
+
+
+
+- Changes/improvements from last week's reflection?
+This was the first sprint so there are no earlier reflections.
