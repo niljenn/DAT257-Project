@@ -140,3 +140,13 @@ a .srchbtn:hover{
     color: rgb(139, 167, 111);
 }
 
+.cbtn{
+    width: 250px;
+    height: 50px;
+    background: rgb(92, 146, 110);
+    border: 3px solid rgb(83, 132, 100);
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
