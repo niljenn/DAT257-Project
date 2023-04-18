@@ -1,0 +1,2 @@
+
+this is a testfile to see that the company class works as expected!
