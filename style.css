@@ -33,14 +33,50 @@
     padding-top: 15px;
 }
 
+.menu{
+    width: 620px;
+    height: 70px;
+    float: left;
+    /*border: 2px solid blue;*/
+}
+
+ul {
+    float: right;
+    display: flex; /*Places element as a row at top and not as column*/
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid red;*/
+}
+
+ul li {
+    list-style: none; /*Removes standard bullet points*/
+    margin-left: 80px;
+    margin-top: 25px;
+    font-size: 15px;
+    /*border: 2px solid saddlebrown;*/
+}
+
+ul li a {
+    text-decoration: none; /*Removes standard underlining*/
+    color: black;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(31, 134, 65);
+}
+
 .feature{
     height: 350px;
     width: 100%; /*Fills whole width without creating the scroll bar from side to side*/
-    border: 2px solid rgb(92, 146, 110);
-    float: left;
     margin-top: 3px;
     box-sizing: border-box; /*Padding and border are included in width/height*/
-    background-color: rgb(92,146,110);
+    background: rgb(92,146,110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature_text{
@@ -50,4 +86,19 @@
     float: left;
     margin-left: 550px; /*I think this is the center/half of width*/
     margin-top: 115px; /*Height=350, 350/2=175, 175-60=115px, should be half of height*/
+}
+
+/*.srchbar{
+    border: 2px solid brown;
+    height: 230px;
+}*/
+
+.srch{
+    float: left; /*To connect bar and btn*/
+    margin-top: 210px;
+    width: 300px;
+}
+
+.srchbtn{
+    margin-top: 210px;
 }
