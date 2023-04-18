@@ -75,30 +75,68 @@ ul li a:hover{
     box-sizing: border-box; /*Padding and border are included in width/height*/
     background: rgb(92,146,110);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /*justify-content: center;
+    align-items: center;*/
 }
 
-.feature_text{
+
+/*.feature_text{
     color: black;
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Times New Roman';
-    float: left;
-    margin-left: 550px; /*I think this is the center/half of width*/
-    margin-top: 115px; /*Height=350, 350/2=175, 175-60=115px, should be half of height*/
-}
-
-/*.srchbar{
-    border: 2px solid brown;
-    height: 230px;
+    margin-top: 115px; Height=350, 350/2=175, 175-60=115px, should be half of height
 }*/
 
+.feature_text{
+    width: 400px;
+    height: 25px;
+    font-size: 30px;
+    margin-left: 450px;
+    margin-top: 100px;
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    /*border: 2px solid red;*/
+}
+
+.srchbar{
+    width: 500px;
+    height: 40px;
+    margin-top: 200px;
+    margin-left: 400px;
+    padding: 20px;
+    /*border: 2px solid saddlebrown;*/
+}
+
 .srch{
-    float: left; /*To connect bar and btn*/
-    margin-top: 210px;
-    width: 300px;
+    width: 420px;
+    height: 40px;
+    float: left; /*To connect the bar to the button*/
+    background: transparent;
+    border: 1px solid greenyellow;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-right: none;
+    padding: 15px;
+    outline: none;
+}
+
+::placeholder{
+    color: aliceblue;
 }
 
 .srchbtn{
-    margin-top: 210px;
+    width: 80px;
+    height: 40px;
+    background: greenyellow;
+    border: 1px solid greenyellow;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    color: black;
+    font-size: 16px;
 }
+
+a .srchbtn:hover{
+    color: rgb(139, 167, 111);
+}
+
