@@ -1,0 +1,64 @@
+.boxes-container {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex; 
+  align-items: center; 
+  width: 500px;
+  border: 0.5px solid #d9d9d9;
+  padding: 10px;
+}
+
+.box img {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.box .box-info {
+  font-family: "Quicksand";
+  margin-left: 10px; 
+  flex-grow: 1;
+}
+
+.box h3, .box p {
+  margin: 0; 
+}
+
+.box .rating-bar-container {
+  width: 100px;
+  height: 20px; 
+  background-color: #e78c8c; 
+  margin-top: 5px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+
+.box .rating-bar {
+  height: 100%;
+  background-color: #9cee75;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-text {
+  padding-left: 5px;
+  margin-right: 10px; 
+}
+
+.rating-bar-container {
+  flex-grow: 1;
+}
