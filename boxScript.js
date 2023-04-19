@@ -1,26 +1,63 @@
-// Import the companies array from the companies.js file
-const { companies } = require('./companies');
+// Array of box data
+var boxesData = [];
 
-// Get the boxes container element from the HTML document
-const boxesContainer = document.getElementById('boxesContainer');
+import { companies } from './companies.js';
 
-// Loop through the companies array and create a miniature box for each company
-for (let company of companies) {
-  // Create a div element for the company box
-  const companyBox = document.createElement('div');
-  companyBox.classList.add('company-box');
+for (var i = 0; i < companies.length; i++) {
+  var company = companies[i];
   
-  // Create an image element for the company's picture
-  const companyImage = document.createElement('img');
-  companyImage.src = company.picture;
-  companyImage.alt = `${company.name} logo`;
-  companyBox.appendChild(companyImage);
+  var boxData = {
+    name: company.name,
+    rating: (company.ecoFriendliness + company.socialImpact) / 2,
+    maxRating: 10,
+    imageFile: company.imageFile
+  };
+
+  boxesData.push(boxData);
+}
+
+// Container which holds all boxes 
+var boxesContainer = document.getElementById("boxesContainer");
+
+for (var i = 0; i < boxesData.length; i++) {
+  var boxData = boxesData[i];
+
+
+  // Box with company information
+  var box = document.createElement("div"); 
+  box.className = "box";
+
+  // Container for rating 
+  var ratingContainer = document.createElement("div");
+  ratingContainer.className = "rating-container";
+  ratingContainer.style.width = "250px"
   
-  // Create a p element for the company's overall rating
-  const overallRating = document.createElement('p');
-  overallRating.textContent = `Overall Rating: ${company.calculate_overall_score()}`;
-  companyBox.appendChild(overallRating);
+  // Rating text
+  var ratingText = document.createElement("p");
+  ratingText.className = "rating-text";
+  ratingText.textContent = `${boxData.rating}/${boxData.maxRating}`;
   
-  // Add the company box to the boxes container
-  boxesContainer.appendChild(companyBox);
+  // Rating bar
+  var ratingBarContainer = document.createElement("div");
+  ratingBarContainer.className = "rating-bar-container";
+  var ratingBar = document.createElement("div");
+  ratingBar.className = "rating-bar";
+  ratingBar.style.width = (boxData.rating / boxData.maxRating) * 100 + "%";
+  ratingBarContainer.appendChild(ratingBar);
+
+  ratingContainer.appendChild(ratingBarContainer);
+  ratingContainer.append("Hållbarhet: ")
+  ratingContainer.appendChild(ratingText);
+
+
+  box.innerHTML = `
+    <img src="${boxData.imageFile}" alt="${boxData.name}">
+    <div class="box-info">
+      <p>${boxData.name}</p>
+      ${ratingContainer.outerHTML}
+    </div>
+  `;
+
+
+  boxesContainer.appendChild(box);
 }
