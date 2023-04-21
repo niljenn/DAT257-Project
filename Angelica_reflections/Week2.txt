@@ -1,0 +1,29 @@
+- What do I want to learn or understand better?
+
+I want to learn a bit more about the frontend parts of the project, as I have mostly worked on the backend code so far.
+Next week I will therefore put some time and energy into learning a bit more about placing out the visual elements
+on a website by actually doing it and not just watching tutorials on the matter as I already have. 
+I will also be collecting data that we can use to display the different companies and their scores correctly, no more 'fake information'.
+
+
+
+-What is my contribution towards the team's deliveries? How can I help my team do better next sprint?
+
+I created a class for the companies that will be able to hold all their specific information, we can use this object
+to display all relevant information depending on which page we are at on the website. 
+I have also helped the team move forward by dealing with a few Git problems that arised this week so that we 
+were able to continue working effectively and not get stuck. 
+I have also been very active in the chat and in all discussions, for example discussions of 
+how to fairly split the workload and who is responsible for what in the upcoming sprint next week.
+
+
+
+- Changes/improvements from last week's reflection?
+
+I feel like we have all improved this week in terms of communication, but instead we lacked 
+a little bit in the division of the workload as some did a lot more than others.
+Also not everyone has worked on all parts of the project, some only worked on the frontend,
+while others only worked on the backend etc. 
+This is why we had a good discussion about this today at the 'wrap up' of the week and we started planning
+on how to split the workload more fairly in the future so that everyone gets to work on everything and have equal
+amounts of work to do for the upcoming sprints, as well as the project in its entirety. 
