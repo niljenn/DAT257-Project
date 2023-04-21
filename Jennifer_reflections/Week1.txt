@@ -7,7 +7,7 @@ for the website. The main focus lies in understanding how HTML is built and how 
 elements together. It would also be beneficial to understand more of the attributes in CSS so that I can build
 the different elements correctly and also be more efficient with it. Regarding Scrum, I feel like I need to get a 
 better understanding of how the backlog is used to help with choosing what tasks to prioritize that Sprint. 
-As a team I belvieve wee should work on being more clear about plans and meetings.
+As a team I belvieve we should work on being more clear about plans and meetings.
 
 
 2. What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
