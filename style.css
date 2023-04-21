@@ -14,7 +14,7 @@
     height: 75px;
     width: 100%;
     box-sizing: border-box;
-    /*sborder: 2px solid red;*/
+    /*border: 2px solid red;*/
 }
 
 .icon{
@@ -34,38 +34,77 @@
 }
 
 .menu{
-    width: 620px;
-    height: 70px;
-    float: left;
+    margin-top: 15px;
+    margin-left: 200px;
+    padding: 10px;
+    display: inline-block;
+    transition: 0.4s ease-in-out;
     /*border: 2px solid blue;*/
 }
 
-ul {
-    float: right;
-    display: flex; /*Places element as a row at top and not as column*/
-    justify-content: center;
-    align-items: center;
-    /*border: 2px solid red;*/
+.dropdown{
+    display: inline-block;
+    position: relative;
 }
 
-ul li {
-    list-style: none; /*Removes standard bullet points*/
-    margin-left: 80px;
-    margin-top: 25px;
-    font-size: 15px;
-    /*border: 2px solid saddlebrown;*/
-}
-
-ul li a {
-    text-decoration: none; /*Removes standard underlining*/
-    color: black;
-    font-family: 'Times New Roman';
+.dropbtn{
+    border: none;
+    font-size: 17px;
     font-weight: bold;
-    transition: 0.4s ease-in-out;
+    font-family: 'Times New Roman';
+    color: black;
 }
 
-ul li a:hover{
+.dropbtn:hover{
     color: rgb(31, 134, 65);
+}
+
+.about{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-right: 70px;
+    font-weight: bold;
+}
+
+.about:hover{
+    color: rgb(31, 134, 65);
+}
+
+.why{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.why:hover{
+    color: rgb(31, 134, 65);
+}
+
+.dropdown-content{
+    display: none;
+    min-width: 130px;
+}
+
+.category{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+}
+
+.category:hover{
+    color: rgb(31, 134, 65);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    background: rgb(249, 250, 247);
+    border-radius: 2px;
+    position: absolute;
 }
 
 .feature{
@@ -75,17 +114,7 @@ ul li a:hover{
     box-sizing: border-box; /*Padding and border are included in width/height*/
     background: rgb(92,146,110);
     display: flex;
-    /*justify-content: center;
-    align-items: center;*/
 }
-
-
-/*.feature_text{
-    color: black;
-    font-size: 40px;
-    font-family: 'Times New Roman';
-    margin-top: 115px; Height=350, 350/2=175, 175-60=115px, should be half of height
-}*/
 
 .feature_text{
     width: 400px;
@@ -149,4 +178,8 @@ a .srchbtn:hover{
     font-size: 20px;
     margin-top: 20px;
     margin-left: 100px;
+}
+
+.cbtn:hover{
+    color: rgb(232, 237, 234);
 }

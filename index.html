@@ -15,15 +15,23 @@
         <div class="navbar"> <!--Navigation bar element, everything  that is supposed to be in the navigation bar is inside here-->
 
             <div class="icon"> <!--Icon element for logo to be put-->
-                <h2 class="logo">EcoScore</h2>
+                <a href="index.html"><h2 class="logo">EcoScore</h2></a>
             </div>
 
             <div class="menu"> <!--Menu element, all things in the menu should be put here-->
-                <ul>
-                    <li><a href="om_oss.html">Om Oss</a></li>
-                    <li><a href="drop down">Kategorier</a></li>
-                    <li><a href="why_EcoScore.html">Varför EcoScore?</a></li>
-                </ul>
+                
+                <a  class="about" href="om_oss.html">Om oss</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Kategorier</button>
+                    <div class="dropdown-content">
+                        <a class="category" href="#">Mat</a>
+                        <a class="category" href="#">Kläder</a>
+                    </div>
+                </div>
+
+                <a class="why" href="why_EcoScore.html">Varför EcoScore?</a>
+
             </div> 
 
         </div>
@@ -34,7 +42,6 @@
                 <H5>Hitta företagen som bryr sig om miljön och människor</H5>
             </div>
             
-
             <div class="srchbar"> <!--Searchbar element, searchbar features should be put here-->
                 <input class="srch" type="search" name="" placeholder="Sök företag eller kategori"> 
                 <a href="#"> <button class="srchbtn">Sök</button></a> <!--The button to press for search-->
@@ -43,7 +50,7 @@
         </div>
 
         <div class="companybtn"> <!--Add link to page in href-->
-            <a href="#"> <button class="cbtn">Företag</button></a>
+            <a href="category_page.html"> <button class="cbtn">Företag</button></a>
         </div>
         
         
