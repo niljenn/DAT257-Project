@@ -7,7 +7,18 @@ class Company {
       this.diversity = diversity;
       this.descriptionFile = descriptionFile;
       this.imageFile = imageFile;
+      this.active = false
     }
+
+    isActive(){
+      this.active == true;
+    }
+
+    notActive(){
+      this.active ==false;
+    }
+
+
   
     /*getOverallScore() {
       const scores = [this.ecoFriendliness, this.socialImpact, this.animalWelfare, this.diversity];
