@@ -1,0 +1,19 @@
+What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc? 
+
+During the last sprint, I worked on improving my skills as a team leader and learning more about the scrum framework.
+I am still aiming to learn more about this as it is taking some time to get used to the overall structure and way of working.
+For the next sprint I want to focus on improving my technical skills in the website development and learn how to better
+incorporate HTML, css, and JavaScript in a single site. We have already made quite a bit of work on this and have encountered situations
+where this was necessary. However, I noticed my understanding was lacking so I want to explore this more (specifically JS).
+
+What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+
+I have become slightly more comfortable with my role as scrum master, alhtough it is feeling a bit forced and unnautral at times,
+I can see more of the purpose and importance of such a role. I have also worked quite a lot on the code and contributed significantly 
+to the website. I will continue to work on these same areas next week. 
+
+
+
+Changes/improvements from last week's reflection?
+Like mentioned, I will continue similarly to last week and continue diving deeper into how I should do my role as scrum master, agile
+in general, and website developing skills. 
