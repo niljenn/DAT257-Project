@@ -1,4 +1,4 @@
-
+"""
 class Company:
     def __init__(self, name, emission_score, animal_friendly_score, plastic_score, other_factor_score, description_file, picture=None):
         self.name = name
@@ -20,3 +20,4 @@ class Company:
             description = f.read()
         
         return description
+        """
