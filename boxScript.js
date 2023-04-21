@@ -8,7 +8,7 @@ for (var i = 0; i < companies.length; i++) {
   
   var boxData = {
     name: company.name,
-    rating: (company.ecoFriendliness + company.socialImpact) / 2,
+    rating: company.getOverallScore(),
     maxRating: 10,
     imageFile: company.imageFile
   };
