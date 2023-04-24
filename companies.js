@@ -1,7 +1,7 @@
 import { Company } from './Company.js';
 
 export const companies = [
-  new Company("GreenTech Co.", 8.5, 7.9, 9.1, 6.8, "test_description.txt", "jamal.jpeg", false),
+  new Company("GreenTech Co.", 1, 1, 1, 1, "test_description.txt", "jamal.jpeg", false),
   new Company("EcoLife Inc.", 7.2, 9.4, 6.5, 8.1, "test_description.txt", "jamal.jpeg", false),
   new Company("SustainCorp LLC", 9.1, 8.3, 7.8, 7.2, "test_description.txt", "jamal.jpeg", true),
   new Company("PlanetFirst Enterprises", 8.3, 7.5, 8.7, 6.9, "test_description.txt", "jamal.jpeg", false),

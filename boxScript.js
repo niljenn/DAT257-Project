@@ -9,10 +9,9 @@ for (var i = 0; i < companies.length; i++) {
   var boxData = {
     name: company.name,
     rating: company.getOverallScore(),
-    maxRating: 10,
+    maxRating:9,
     imageFile: company.imageFile
   };
-
   boxesData.push(boxData);
 }
 

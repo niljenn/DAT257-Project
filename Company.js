@@ -1,25 +1,13 @@
 class Company {
-
-  constructor(name, emission, plasticUsage, animalWelfare, diversity, descriptionFile, imageFile) {
+  constructor(name, emission, plasticUsage, animalWelfare, other, descriptionFile, imageFile) {
     this.name = name;
     this.emission = emission;
     this.plasticUsage = plasticUsage;
     this.animalWelfare = animalWelfare;
-    this.diversity = diversity;
+    this.other = other;
     this.descriptionFile = descriptionFile;
     this.imageFile = imageFile;
-    this.active = false
   }
-
-  isActive(){
-    this.active == true;
-  }
-
-  notActive(){
-    this.active ==false;
-  }
-
-
 
   getOverallScore() {
     const weights = [0.4, 0.2, 0.2, 0.2]; //weights for each factor: emission, plasticUsage, animalWelfare, other
@@ -33,6 +21,6 @@ class Company {
   getDescription() {
     return "descriptionFile";
   }
-  
 }
+
 export { Company };
