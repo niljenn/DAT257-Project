@@ -1,0 +1,27 @@
+Sprint 2 Reflection
+
+1. What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc?
+
+I still feel like I need to learn a bit more about css and attributes such as margins and paddings to really 
+understand how to place the differnt div elements in relation to each other. My understanding of the backlog, 
+especially the user stories, and how to use the backlog has become clearer. Although, I believe that using it more
+will lead to better divisions of tasks/user stories so that the work I do is more efficient. So most importantly is 
+understanding how to divide the user stories and tasks so that they aren't too big for one sprint. I would really 
+like to learn more about the backend part of the website too for the next sprint.
+
+2. What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+
+My contribution to the team  this week was to get a start page up for the website so that  we can navigate to 
+the different pages without a problem. This made it possible for the others to use some of my code, both HTML and 
+CSS, so that the website looks the same for some parts, like  the menu part of the website. 
+I also continue to ask questions and contribute to discussions so that our ideas can keep flowing, 
+and so that desicion making becomes easier. For the next sprint I want to help/be better at coming up
+with how to divide the user stories/tasks so that we can divide the work up more efficiently. 
+
+3. Changes/improvements from last week's reflection?
+
+I have improved my understanding of CSS and HTML and I understand the backlog better. Some changes were made
+in the backlog of how the user stories were represented, before we wrote down what needed to be done but now we
+use the specific user stories to get a better idea of what needs to be finished at the end of the sprint. 
+I improved my understanding of my other team members too this sprint because I asked 
+questiones whenever I didn't understand fully, to avoid misscommunication.
