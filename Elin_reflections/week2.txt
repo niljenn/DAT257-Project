@@ -1,0 +1,23 @@
+1. What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc? 
+
+I wanna learn more about how we can present our data and what data is available and possible for us to work with. I also wanna look 
+into how we can collect the data in an efficient way. 
+I would also wanna learn more about how you implement a search bar if there's time.
+
+2. What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+
+I have built the first version of the page showing a detailed view of one Company. What has taken most work is connecting the
+page that leads to the detailed view so that it updates the right information depending on what company was chosen on the previous
+page. I also struggled a lot with github and couldn't upload my stuff until the last day, therefore we also had some trouble 
+working together on this page. The next sprint I'm gonna help my team by gathering data about the companys and fixing what
+didn't work out as we wanted this week. If there is time I would also wanna learn more about how to implement the search bar
+and then be able to help out if my team mate gets stuck.
+
+3. Changes/improvements from last week's reflection?
+
+We definetly have a better structure for our ToDo's and they are much better explained. We now write the user story directly 
+on the card, which makes it easier to understand. We have had more time to spend on working individually and less discussing how we should 
+plan the project. At the end of the week we did understand that not everyone felt the same, especially the ones working in a group 
+on the same part of the project. Therefore we gonna try and divide the work into smaller pieces so that everyone has their own thing to focus on.
+
+I have also learnt a lot about html and css and spent had more time programming this sprint.
