@@ -9,11 +9,14 @@ for (var i = 0; i < companies.length; i++) {
   var boxData = {
     name: company.name,
     rating: company.getOverallScore(),
-    maxRating:9,
+    maxRating: 10,
     imageFile: company.imageFile
   };
   boxesData.push(boxData);
 }
+
+boxesData.sort((a, b) => b.rating - a.rating);
+
 
 // Container which holds all boxes 
 var boxesContainer = document.getElementById("boxesContainer");
