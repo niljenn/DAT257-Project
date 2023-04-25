@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoScore</title>
     <link rel="stylesheet" href="style.css">
+    <!--<script type="text/javascript" src="search.js"></script>-->
 </head>
 
 <body>
@@ -42,9 +43,9 @@
                 <H5>Hitta företagen som bryr sig om miljön och människor</H5>
             </div>
             
-            <div class="srchbar"> <!--Searchbar element, searchbar features should be put here-->
-                <input class="srch" type="search" name="" placeholder="Sök företag eller kategori"> 
-                <a href="#"> <button class="srchbtn">Sök</button></a> <!--The button to press for search-->
+            <div id="searchbar" class="srchbar"> <!--Searchbar element, searchbar features should be put here-->
+                <input id="searchbar" class="srch" type="search" name="" placeholder="Sök företag eller kategori"> 
+                <button id="searchbtn" class="srchbtn">Sök</button> <!--The button to press for search-->
             </div> 
             
         </div>
@@ -55,6 +56,6 @@
         
         
     </div>
-
+<script type="module" src="search.js"></script>
 </body>
 </html>
