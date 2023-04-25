@@ -14,6 +14,7 @@ for (var i = 0; i < companies.length; i++) {
     imageFile: company.imageFile,
     detailPageUrl: `./detail_co_page.html?id=${company.id}`
   };
+  
   boxesData.push(boxData);
 }
 
@@ -34,7 +35,9 @@ for (var i = 0; i < boxesData.length; i++) {
   detailPageLink.href = boxData.detailPageUrl;
   detailPageLink.addEventListener("click", function(event) {
     event.preventDefault();
-    window.location.href = boxData.detailPageUrl;
+    var id = this.href.split("=")[1];
+    var company = companies.find(c => c.id == id);
+    window.location.href = `./detail_co_page.html?id=${id}`;
   });
 
   // Container for rating

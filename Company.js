@@ -1,6 +1,9 @@
 class Company {
+  static counter = 0;
+
   constructor(name, emission, plasticUsage, animalWelfare, other, descriptionFile, imageFile) {
     this.name = name;
+    this.id = Company.counter++;
     this.emission = emission;
     this.plasticUsage = plasticUsage;
     this.animalWelfare = animalWelfare;
@@ -18,9 +21,12 @@ class Company {
     return parseFloat(average.toFixed(1));
   }
 
-  getDescription() {
-    return "descriptionFile";
+  async getDescription() {
+    const response = await fetch(this.descriptionFile);
+    const text = await response.text();
+    return text;
   }
+  
 }
 
 export { Company };

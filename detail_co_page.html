@@ -4,24 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detailed view of...</title>
-    <script type="module" src="CompanyDetailScript.js" async></script>
+    <title>Detailed view of `${activeCompany.name}`</title>
+    <script type="module" src="CompanyDetailScript.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="detail_page.css">
 </head>
 <body>
     <div class="detailPage">
-
-        <div class="navbar"> <!--Navigation bar element, everything  that is supposed to be in the navigation bar is inside here-->
-
-            <div class="icon"> <!--Icon element for logo to be put-->
-                    <a href="index.html"><h2 class="logo">EcoScore</h2></a>
+        <div class="navbar">
+            <div class="icon">
+                <a href="index.html"><h2 class="logo">EcoScore</h2></a>
             </div>
-    
-            <div class="menu"> <!--Menu element, all things in the menu should be put here-->
-                    
-                <a  class="about" href="om_oss.html">Om oss</a>
-    
+            <div class="menu">
+                <a class="about" href="om_oss.html">Om oss</a>
                 <div class="dropdown">
                     <button class="dropbtn">Kategorier</button>
                     <div class="dropdown-content">
@@ -29,18 +24,13 @@
                         <a class="category" href="#">Kläder</a>
                     </div>
                 </div>
-    
                 <a class="why" href="why_EcoScore.html">Varför EcoScore?</a>
-    
-            </div> 
-    
+            </div>
         </div>
-
         <div class="general_info">
             <img class="logo" id="logo">
             <p class="companyName" id="companyName"></p>
         </div>
-        
         <div class="ecoScores">
             <img class="score_img" src="images/emmision.png">
             <p class="emmisionScore" id="emmisionScore"></p>
@@ -51,12 +41,9 @@
             <img class="score_img" src="images/other.png">
             <p class="otherScore" id="otherScore"></p>
         </div>
-        
         <div class="ecoScore_Summary">
-            <p class="scoreText" id="scoreText">What we thing about this company based on the data we gathered...</p>
+            <p class="scoreText" id="scoreText">the data we gathered about the company: `${activeCompany.getDescription()}`</p>
         </div>
-
     </div>
-
 </body>
 </html>
