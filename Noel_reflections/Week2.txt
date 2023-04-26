@@ -1,0 +1,24 @@
+
+
+
+1.
+I want to fully understand how our application presents the data about companies since this is the core selling point of our project.
+If this aspect does not function correctly, the entire idea behind our project could fail.
+
+
+2.
+I know I need to improve my approach, but to do that, I must take a more significant role in the group.
+Otherwise, it will be hard for me to motivate others, express my opinions and perform to the best of my ability.
+However, I feel slightly uncomfortable in this group setting as I can’t take that much space, and I am unsure how to change that.
+I thought I knew how to handle it, but now I'm not so sure.
+
+
+3.
+During the last sprint, our team mostly focused on discussing how to begin the project.
+As a result, we recognized that planning and communication need improvement on the upcoming sprints.
+
+In terms of my own performance, I faced challenges when working on a user story that multiple team members were also working on.
+Due to potential merge conflicts in the code, I took a step back and played a more supportive role.
+For the next sprint, I recommend dividing larger user stories into smaller parts that can be more easily tackled individually.
+Additionally, we need to define user stories more clearly, as it was often confusing to determine what needed to be done,
+particularly when multiple people were involved in the same task.
