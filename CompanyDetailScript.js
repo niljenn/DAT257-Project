@@ -22,10 +22,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     logo.src = activeCompany.imageFile;
     companyName.textContent = activeCompany.name;
-    emmisionScore.textContent = `${activeCompany.ecoFriendliness}/10`;
+    emmisionScore.textContent = `${activeCompany.emission}/10`;
     animalScore.textContent = `${activeCompany.animalWelfare}/10`;
-    plasticScore.textContent = `${activeCompany.socialImpact}/10`;
-    otherScore.textContent = `${activeCompany.diversity}/10`;
+    plasticScore.textContent = `${activeCompany.plasticUsage}/10`;
+    otherScore.textContent = `${activeCompany.other}/10`;
     scoreText.textContent = `What we think about ${activeCompany.name} based on the data we gathered...`;
     console.log("Hello from CompanyDetailScript.js!");
 
