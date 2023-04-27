@@ -1,0 +1,13 @@
+What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc? 
+During this week, I learned how important it is to have a good task distribution and communication within the team. 
+In the last sprint, some team members finished their tasks before the others, which made it difficult for those who were not finished to contribute to the project.
+Therefore, this week we focused more on dividing the tasks into smaller pieces, so everyone would have something to work on during the sprint.
+Additionally, I continued to improve my skills in HTML and CSS, and I feel more confident in using them now compared to the previous week.
+
+ What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+I also provided some suggestions for how to improve the website's design and functionality. Moreover, I shared some of my knowledge in HTML and CSS with my teammates who were struggling with their tasks.
+To help the team do better next sprint, I will continue to encourage clear communication within the team and try to identify potential issues before they arise. My main task was to design the catagory result page in which I designed a working page were you could see how sustainable the companies in the chosen catagory are. 
+It is important to point that the design of the page was very minimal as further improvment will be added in the upcoming springs.
+
+changes/improvements from last week's reflection?
+We have begun working more on the website and we have more working functions. 

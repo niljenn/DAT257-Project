@@ -24,6 +24,7 @@
     font-size: 40px;
     color: rgb(251, 253, 255);
     padding-top: 25px;
+    margin-left: 200px;
 }
 .website {
     color: rgb(251, 253, 255);
@@ -41,9 +42,34 @@
 .score_img {
     width: 50px;
     float: left;
-    margin-left: 110px;
+    padding-top: 25px;
+    margin-left: 100px;
+}
+.emmisionScore {
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(0, 115, 118);
+    padding-top: 30px;
+    margin-left: px;
+    float: left;
 }
 .animalScore {
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(0, 115, 118);
+    padding-top: 30px;
+    margin-left: 5px;
+    float: left;
+}
+.plasticScore {
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(0, 115, 118);
+    padding-top: 30px;
+    margin-left: 5px;
+    float: left;
+}
+.otherScore {
     font-size: 30px;
     font-weight: lighter;
     color: rgb(0, 115, 118);
