@@ -1,32 +1,34 @@
 import { companies } from './companies.js';
+/*import { boxScript } from './boxScript.js';*/
 
 const button = document.getElementById("searchbtn");
 button.addEventListener("click", search);
 
+
 function search() {
 
-    var slist = [];
+    let slist = [];
     var i = 0;
 
     for ( i = 0; i < companies.length; i++ ) {
         var company = companies[i];
+        let input = document.getElementById('searchbar').value;
+        input = input.toLowerCase();
 
-        var searchData = { name: company.name};
-        slist.push(searchData);
+        /*console.log(input)*/
 
-    }
+        const searchData = { name: company.name}; /*An object*/
 
-    console.log(slist)
-
-    /*let input = document.getElementById('searchbar').value */
-    /*input = input.toLowerCase();*/
-
-    for ( i = 0; i < slist.length; i++ ) {
-        var search_item = slist[i]
-        
-        if (search_item.name === "EcoLife Inc.") {
-            window.location.href="./om_oss.html";
+        if (searchData.name.toLowerCase().includes(input)) {
+            window.location.href = "./category_page.html"
         }
 
+        else {
+            console.log('none')
+        }
+
+        /*console.log(searchData.name)*/
+
     }
+
 }
