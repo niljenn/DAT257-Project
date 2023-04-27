@@ -1,0 +1,25 @@
+Sprint 3 Reflection
+
+1. What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc?
+
+I still want to learn more about javascript. I worked with javascript for the first time this week, and while 
+I've learned a lot, there is more to learn. For next week I want to "learn" how to gather data about the
+companies efficiently, since gathering data can easily become overwhelming with a lot of information that might
+not even be relevant.
+
+2. What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+
+This week my contribution was to create a search function for the website that the user can use to search for a
+specific company, for example. A search function can be implemented in many ways, with different difficulties, 
+the team chose to create one that would be simple. So when searching for a company the algorithm will look at the 
+letters and see if they match any company's name in the list. Also the first letter typed should be the priority, 
+and therefore placed at the top. I have also communicated to the team how far along I've come during the week, and
+tried my best to contribute to the discussions. But I could've been better at that this week.  
+
+3. Changes/improvements from last week's reflection?
+
+Some changes/improvements from last week is that I understand javascript better, which makes it easier for me to
+understand some code that the others have written, that I didn't before. I believe that I also understood how to
+more effectivly divide the user stories between us team members this week, because I think we did a good job at it. 
+Personally though I could have created tasks for my user story this week, but since the task was pretty straight
+forward I didn't know what to write except "create a search function".

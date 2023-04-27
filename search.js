@@ -20,14 +20,14 @@ function search() {
         const searchData = { name: company.name}; /*An object*/
 
         if (searchData.name.toLowerCase().includes(input)) {
-            window.location.href = "./category_page.html"
+            /*window.location.href = "./category_page.html"*/
+            console.log(searchData.name) /*We want the first letter to be prioritized an put at top. */
+
         }
 
         else {
             console.log('none')
         }
-
-        /*console.log(searchData.name)*/
 
     }
 
