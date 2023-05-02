@@ -4,39 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detailed view of...</title>
-    <script type="module" src="CompanyDetailScript.js" async></script>
+    <title>Detailed view of `${activeCompany.name}`</title>
+    <script type="module" src="CompanyDetailScript.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="detail_page.css">
 </head>
 <body>
     <div class="detailPage">
-        
+
         <header>
             <script type="text/javascript" src="./header.js"></script>
         </header>
-
+        
         <div class="general_info">
             <img class="logo" id="logo">
-            <p class="companyName" id="companyName">Company name</p>
+            <p class="companyName" id="companyName"></p>
         </div>
-        
         <div class="ecoScores">
             <img class="score_img" src="images/emmision.png">
-            <p class="emmisionScore" id="emmisionScore">3/5</p>
+            <p class="emmisionScore" id="emmisionScore"></p>
             <img class="score_img" src="images/animal.png">
-            <p class="animalScore" id="animalScore">4/5</p>
+            <p class="animalScore" id="animalScore"></p>
             <img class="score_img" src="images/plastic.png">
-            <p class="plasticScore" id="plasticScore">2/5</p>
+            <p class="plasticScore" id="plasticScore"></p>
             <img class="score_img" src="images/other.png">
-            <p class="otherScore" id="otherScore">2/5</p>
+            <p class="otherScore" id="otherScore"></p>
         </div>
-        
         <div class="ecoScore_Summary">
-            <p class="scoreText" id="scoreText">What we thing about this company based on the data we gathered...</p>
+            <p class="scoreText" id="scoreText">the data we gathered about the company: `${activeCompany.getDescription()}`</p>
         </div>
-
     </div>
-
 </body>
 </html>
