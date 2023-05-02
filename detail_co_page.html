@@ -4,47 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detailed view of `${activeCompany.name}`</title>
-    <script type="module" src="CompanyDetailScript.js"></script>
+    <title>Detailed view of...</title>
+    <script type="module" src="CompanyDetailScript.js" async></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="detail_page.css">
 </head>
 <body>
     <div class="detailPage">
-        <div class="navbar">
-            <div class="icon">
-                <a href="index.html"><h2 class="logo">EcoScore</h2></a>
-            </div>
-            <div class="menu">
-                <a class="about" href="om_oss.html">Om oss</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Kategorier</button>
-                    <div class="dropdown-content">
-                        <a class="category" href="#">Mat</a>
-                        <a class="category" href="#">Kläder</a>
-                    </div>
-                </div>
-                <a class="why" href="why_EcoScore.html">Varför EcoScore?</a>
-            </div>
-        </div>
+        
+        <header>
+            <script type="text/javascript" src="./header.js"></script>
+        </header>
+
         <div class="general_info">
             <img class="logo" id="logo">
-            <p class="companyName" id="companyName"></p>
+            <p class="companyName" id="companyName">Company name</p>
         </div>
+        
         <div class="ecoScores">
             <img class="score_img" src="images/emmision.png">
-            <p class="emmisionScore" id="emmisionScore"></p>
+            <p class="emmisionScore" id="emmisionScore">3/5</p>
             <img class="score_img" src="images/animal.png">
-            <p class="animalScore" id="animalScore"></p>
+            <p class="animalScore" id="animalScore">4/5</p>
             <img class="score_img" src="images/plastic.png">
-            <p class="plasticScore" id="plasticScore"></p>
+            <p class="plasticScore" id="plasticScore">2/5</p>
             <img class="score_img" src="images/other.png">
-            <p class="otherScore" id="otherScore"></p>
+            <p class="otherScore" id="otherScore">2/5</p>
         </div>
+        
         <div class="ecoScore_Summary">
-            <p class="scoreText" id="scoreText">the data we gathered about the company: `${activeCompany.getDescription()}`</p>
+            <p class="scoreText" id="scoreText">What we thing about this company based on the data we gathered...</p>
         </div>
+
     </div>
+
 </body>
 </html>
-

@@ -1,0 +1,19 @@
+1. What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc? 
+
+I wanna get to know the other parts of the program that I havenät worked on better and read through those files to get a better overall understanding.
+
+2. What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+
+This sprint I have implented a way to reuse the header on each page, which let us reuse the code instead of copy and pasting. This also
+makes it easier to change the features of the headerwithout having to change the code on each page. I'm not sure yet what my role will 
+be next sprint, we will decide that on monday. But I could be better next week at communicating my progress.
+
+3. Changes/improvements from last week's reflection?
+
+I thought that making a reusable component would be very easy but it took way more time than I expected. The main implentation wasn't too hard but
+there were some details to the code that I didn't understand fully that kept the code from working. But unlike last week when I tried to connect the 
+category page to the detailCompany page, I did succeed this time which is an improvement. I think that it was a good idea that Angelica took over
+since I was stuck and she was able to look at the problem in a new way. I then also got the chance to start fresh and got to solve a new problem. 
+I didn't want to let go of last weeks problem at first but in the end I think this led to the best outcome/progress for both the project and team. 
+
+Except this, our workoload was also divided better this sprint and everyone had their own task to handle, which led to better teamwork and progress.
