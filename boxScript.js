@@ -22,7 +22,7 @@ boxesData.sort((a, b) => b.rating - a.rating);
 
 // Container which holds all boxes
 var boxesContainer = document.getElementById("boxesContainer");
-
+ 
 for (var i = 0; i < boxesData.length; i++) {
   var boxData = boxesData[i];
 

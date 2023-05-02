@@ -2,7 +2,7 @@ class Company {
   static counter = 0;
 
   constructor(name, emission, plasticUsage, animalWelfare, other, descriptionFile, imageFile) {
-    this.name = name;
+    this.name = name; 
     this.id = Company.counter++;
     this.emission = emission;
     this.plasticUsage = plasticUsage;
