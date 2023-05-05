@@ -1,0 +1,17 @@
+What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc? 
+
+I am continuing to build on what I have learned in previous weeks in both Scrum and programming.
+Specifically, I want to use my role as scrum master to improve our team's productivity, efficiency and
+communicatin. As a team leader, I also want to strengthen my skills in teamwork and collaboration.
+
+What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+
+This sprint had focus on other areas than jost coding. Although that was a key part where I continuted to develop the same skills as before,
+this week consisted more of data collection. Since we have a solid foundation, the next week will also consist of more collection of data and
+fixing areas of the code which need fixing. 
+
+
+Changes/improvements from last week's reflection?
+I have realized the importance of flexibility and adaptability in responding to changing project needs. 
+While coding remains an essential aspect of our work, I recognize that other tasks may require more attention at certain times. 
+Therefore, I plan to remain open to new challenges and opportunities for growth as they arise.
