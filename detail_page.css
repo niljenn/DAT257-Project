@@ -16,9 +16,12 @@
 
 .logoImg{
     float: left;
-    margin-top: 30px;
+    margin-top:25px;
     margin-left: 150px;
+    margin-right: 40px;
     width: 150px;
+    height: 150px;
+    border-radius: 75px;
 }
 
 .companyName {
@@ -26,12 +29,12 @@
     font-weight: bold;
     font-size: 40px;
     color: rgb(251, 253, 255);
-    padding-top: 25px;
-    margin-left: 25px;
+    padding-top: 40px;
 }
 .website {
     color: rgb(251, 253, 255);
-    margin-top: 10px;
+    padding-top: 90px;
+    padding-left: 10px;
 }
 .ecoScores {
     width: 1000px;

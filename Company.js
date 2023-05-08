@@ -1,7 +1,7 @@
 class Company {
   static counter = 0;
 
-  constructor(name, emission, plasticUsage, animalWelfare, other, descriptionFile, imageFile) {
+  constructor(name, emission, plasticUsage, animalWelfare, other, descriptionFile, imageFile, website) {
     this.name = name; 
     this.id = Company.counter++;
     this.emission = emission;
@@ -10,6 +10,7 @@ class Company {
     this.other = other;
     this.descriptionFile = descriptionFile;
     this.imageFile = imageFile;
+    this.website = website;
   }
 
   getOverallScore() {

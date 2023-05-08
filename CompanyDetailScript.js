@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const logoImg = document.querySelector('.logoImg');
     const companyName = document.querySelector('.companyName');
+    const website = document.querySelector('.website');
     const emmisionScore = document.querySelector('.emmisionScore');
     const animalScore = document.querySelector('.animalScore');
     const plasticScore = document.querySelector('.plasticScore');
@@ -22,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     logoImg.src = activeCompany.imageFile;
     companyName.textContent = activeCompany.name;
+    website.textContent = activeCompany.website;
     emmisionScore.textContent = `${activeCompany.emission}/10`;
     animalScore.textContent = `${activeCompany.animalWelfare}/10`;
     plasticScore.textContent = `${activeCompany.plasticUsage}/10`;
@@ -37,6 +39,7 @@ export function displayCompanyDetails(company) {
     // Get the elements to update
     const logoElement = document.getElementById('logoImg');
     const companyNameElement = document.getElementById('companyName');
+    const website = document.getElementById('website');
     const emmisionScoreElement = document.getElementById('emmisionScore');
     const animalScoreElement = document.getElementById('animalScore');
     const plasticScoreElement = document.getElementById('plasticScore');
@@ -46,6 +49,7 @@ export function displayCompanyDetails(company) {
     // Update the elements with the company details
     logoElement.src = company.logoImg;
     companyNameElement.innerText = company.name;
+    websiteElement.innerText = company.website;
     emmisionScoreElement.innerText = company.emmisionScore;
     animalScoreElement.innerText = company.animalScore;
     plasticScoreElement.innerText = company.plasticScore;
