@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-    const logo = document.querySelector('.logo');
+    const logoImg = document.querySelector('.logoImg');
     const companyName = document.querySelector('.companyName');
     const emmisionScore = document.querySelector('.emmisionScore');
     const animalScore = document.querySelector('.animalScore');
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const otherScore = document.querySelector('.otherScore');
     const scoreText = document.querySelector('.scoreText');
 
-    logo.src = activeCompany.imageFile;
+    logoImg.src = activeCompany.imageFile;
     companyName.textContent = activeCompany.name;
     emmisionScore.textContent = `${activeCompany.emission}/10`;
     animalScore.textContent = `${activeCompany.animalWelfare}/10`;
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 export function displayCompanyDetails(company) {
     // Get the elements to update
-    const logoElement = document.getElementById('logo');
+    const logoElement = document.getElementById('logoImg');
     const companyNameElement = document.getElementById('companyName');
     const emmisionScoreElement = document.getElementById('emmisionScore');
     const animalScoreElement = document.getElementById('animalScore');
@@ -44,7 +44,7 @@ export function displayCompanyDetails(company) {
     const scoreTextElement = document.getElementById('scoreText');
   
     // Update the elements with the company details
-    logoElement.src = company.logo;
+    logoElement.src = company.logoImg;
     companyNameElement.innerText = company.name;
     emmisionScoreElement.innerText = company.emmisionScore;
     animalScoreElement.innerText = company.animalScore;

@@ -5,7 +5,10 @@ function createHeader() {
     headerElement.innerHTML = `
     <div class="navbar"> 
     <div class="icon"> 
-        <a href="index.html"><h2 class="logo">EcoScore</h2></a>
+        <a href="index.html">
+            <img class="leafLogo" id="leafLogo" src="images/bladetmörk.png">
+            <h2 class="logo">EcoScore</h2>
+        </a>
     </div>
     <div class="menu">
         <a class="about" href="om_oss.html">Om oss</a>

@@ -11,43 +11,24 @@
 
 <body>
 
+    <header>
+        <script type="text/javascript" src="./header.js"></script>
+    </header>
+
     <div class="main"> <!--Main Background element-->
 
-        <div class="navbar"> <!--Navigation bar element, everything  that is supposed to be in the navigation bar is inside here-->
 
-            <div class="icon"> <!--Icon element for logo to be put-->
-                <a href="index.html"><h2 class="logo">EcoScore</h2></a>
-            </div>
-
-            <div class="menu"> <!--Menu element, all things in the menu should be put here-->
-                
-                <a  class="about" href="om_oss.html">Om oss</a>
-
-                <div class="dropdown">
-                    <button class="dropbtn">Kategorier</button>
-                    <div class="dropdown-content">
-                        <a class="category" href="#">Mat</a>
-                        <a class="category" href="#">Kläder</a>
-                    </div>
+        <div class="feature">
+            <div class="featureImgContainer">
+                <img class="featureImg" src="images/startPage3.png">
+                <div class="feature_text">
+                    <h5>Hitta företagen som bryr sig om miljön och människor</h5>
                 </div>
-
-                <a class="why" href="why_EcoScore.html">Varför EcoScore?</a>
-
-            </div> 
-
-        </div>
-
-        <div class="feature"> <!--Everything that's supposed to be in the feature is put inside here-->
-
-            <div class="feature_text">
-                <H5>Hitta företagen som bryr sig om miljön och människor</H5>
+                <div id="srchbar" class="srchbar">
+                    <input id="searchbar" class="srch" type="search" name="" placeholder="Sök företag eller kategori">
+                    <button id="searchbtn" class="srchbtn">Sök</button>
+                </div>
             </div>
-            
-            <div id="srchbar" class="srchbar"> <!--Searchbar element, searchbar features should be put here-->
-                <input id="searchbar" class="srch" type="search" name="" placeholder="Sök företag eller kategori"> 
-                <button id="searchbtn" class="srchbtn">Sök</button> <!--The button to press for search-->
-            </div> 
-            
         </div>
 
         <div class="companybtn"> <!--Add link to page in href-->

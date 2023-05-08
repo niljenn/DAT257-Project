@@ -8,6 +8,7 @@
     <script type="module" src="boxScript.js" async></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="boxStyle.css">
+    <link rel="stylesheet" href="category.css">
 </head>
 
 <body>
@@ -21,9 +22,17 @@
             </header>
 
         </div>
-        <div class="sort-buttons">
-            <button id="best-to-worst-button">Best to Worst</button>
-            <button id="worst-to-best-button">Worst to Best</button>
+
+        <div class="chosen_category">
+            <p class="category_rubric" > Resultat för `${activeCategory.getCategory()}`</p>
+        </div>
+
+        <div class="sortDropdown">
+            <button class="SortBtn">Sortera</button>
+            <div class="sort-content">
+                <button id="best-to-worst-button">Best to Worst</button>
+                <button id="worst-to-best-button">Worst to Best</button>
+            </div>
         </div>
 
         <div class="panel">
