@@ -14,6 +14,7 @@ for (var i = 0; i < companies.length; i++) {
   boxesData.push(boxData);
 }
 // Get references to the "best to worst" and "worst to best" buttons
+const sortButton = document.getElementById('sortButton');
 var bestToWorstButton = document.getElementById("best-to-worst-button");
 var worstToBestButton = document.getElementById("worst-to-best-button");
 // Initialize buttonPressed to "best-to-worst"
@@ -31,12 +32,15 @@ bestToWorstButton.addEventListener("click", function() {
   buttonPressed = "best-to-worst-button";
   sortBoxesData();
   renderBoxes();
+  sortButton.textContent = 'Bäst till sämst';
 });
 worstToBestButton.addEventListener("click", function() {
   buttonPressed = "worst-to-best-button";
   sortBoxesData();
   renderBoxes();
+  sortButton.textContent = 'Sämst till bäst';
 });
+
 // Call sortBoxesData to sort the array initially
 sortBoxesData()
 // Call renderBoxes to render all the boxes initially
