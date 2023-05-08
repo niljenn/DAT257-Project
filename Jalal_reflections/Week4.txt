@@ -1,0 +1,10 @@
+What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc? 
+Since this is my first time working with JavaScript, I lacked the necessary skills to perform as well as I wanted. The main challenge is that we are working with three languages that are new to us: HTML, JavaScript, and CSS. The workload has been divided in a way that requires each team member to try at least one of the newly learned languages, and additional time is needed to understand other group members' code.
+Therefore, I would like to focus more on a specific part of the website, allowing me to work on the same section for the rest of the project. This would provide me with more time to improve my JavaScript skills and contribute more effectively to the team.
+
+ What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+My task this week was to create a function that sorts a list of companies on the website either from "best to worst" or "worst to best," depending on the button clicked by the user. I also had to add the button to the website.
+The function was challenging to write since it had to be integrated with existing code written by other members of the team. However, with some effort, I managed to make the functionality work as intended. Moreover, I added some code to the JavaScript to improve its usability.
+
+changes/improvements from last week's reflection?
+The biggest improvement for me was transitioning from working on the research part of the project to programming and developing the website. Now that we have a clearer plan for the upcoming weeks, I hope to work more with the code and further enhance my programming skills.
