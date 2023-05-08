@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoScore</title>
+    <script type="module" src="boxScript.js" async></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boxStyle.css">
+</head>
+
+<body>
+
+    <div class="main"> <!--Main Background element-->
+
+        <div class="navbar"> <!--Navigation bar element, everything  that is supposed to be in the navigation bar is inside here-->
+
+
+
+
+            <div id="srchbar" class="srchbar"> <!--Searchbar element, searchbar features should be put here-->
+                    <input id="searchbar" class="srch" type="search" name="" placeholder="Sök företag eller kategori">
+                    <button id="searchbtn" class="srchbtn">Sök</button> <!--The button to press for search-->
+            </div>
+
+
+
+            <!-- <p>
+            <div class="search-container">
+                <form action="#">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            </p> -->
+
+
+
+            <header>
+                <script type="text/javascript" src="./header.js"></script>
+            </header>
+
+
+        </div>
+
+
+        <div class="sort-buttons">
+            <button id="best-to-worst-button">Best to Worst</button>
+            <button id="worst-to-best-button">Worst to Best</button>
+        </div>
+
+
+        <div class="panel">
+            <div id="boxesContainer" class="boxes-container">
+                <!-- Boxes will be generated here dynamically -->
+              </div>
+          </div>
+
+        <div id="search-result"></div> <!-- Search result display div -->
+
+
+
+        <div class="button"></div> <!--Button element, button should be put here-->
+        
+    </div>
+
+</body>
+</html>

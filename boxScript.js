@@ -13,6 +13,28 @@ for (var i = 0; i < companies.length; i++) {
   };
   boxesData.push(boxData);
 }
+
+/*
+searchButton.addEventListener("click", function() {
+  // Get the search input value
+  var inputValue = searchInput.value.trim().toLowerCase();
+  // Filter the companies array to find the matching company
+  var company = companies.find(c => c.name.toLowerCase() === inputValue);
+  if (company) {
+    // Display box container for company
+    const boxContainer = document.getElementById("box-container");
+    boxContainer.innerHTML = "";
+    const box = createBox(company);
+    boxContainer.appendChild(box);
+  } else {
+    // Clear the box container if no matching company is found
+    const boxContainer = document.getElementById("box-container");
+    boxContainer.innerHTML = "";
+  }
+});
+*/
+
+
 // Get references to the "best to worst" and "worst to best" buttons
 var bestToWorstButton = document.getElementById("best-to-worst-button");
 var worstToBestButton = document.getElementById("worst-to-best-button");
@@ -40,6 +62,8 @@ worstToBestButton.addEventListener("click", function() {
 // Call sortBoxesData to sort the array initially
 sortBoxesData()
 // Call renderBoxes to render all the boxes initially
+
+
 renderBoxes();
 function renderBoxes(){
   // Container which holds all boxes

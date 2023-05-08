@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoScore</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boxStyle.css">
+    <script type="module" src="search.js"></script>
     <!--<script type="text/javascript" src="search.js"></script>-->
 </head>
 
@@ -46,13 +48,28 @@
             <div id="srchbar" class="srchbar"> <!--Searchbar element, searchbar features should be put here-->
                 <input id="searchbar" class="srch" type="search" name="" placeholder="Sök företag eller kategori"> 
                 <button id="searchbtn" class="srchbtn">Sök</button> <!--The button to press for search-->
-            </div> 
+            </div>
+
+
             
         </div>
+
+        <div id="search-result" class="search-result"></div> <!-- Search result display div -->
+
+
+
+        <div class="panel">
+            <div id="boxes-container" class="boxes-container">
+                <!-- Boxes will be generated here dynamically -->
+            </div>
+        </div>
+
 
         <div class="companybtn"> <!--Add link to page in href-->
             <a href="category_page.html"> <button class="cbtn">Företag</button></a>
         </div>
+
+
         
         
     </div>
