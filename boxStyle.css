@@ -18,7 +18,7 @@
 }
 
 .box img {
-  border-radius: 10px;
+  border-radius: 0px;
   width: 100px;
   height: 100px;
   object-fit: cover;
@@ -34,25 +34,49 @@
   margin: 0; 
 }
 
-.box .rating-bar-container {
+.box-rating-container {
+  position: relative;
   width: 100px;
-  height: 20px; 
-  background-color: #e78c8c; 
-  margin-top: 5px;
+  height: 20px;
+}
+
+.rating-bar-container {
+  width: 100%;
+  height: 100%;
+  background-color: #888888;
   border-radius: 2px;
   overflow: hidden;
 }
 
-
-.box .rating-bar {
+.rating-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
-  background-color: #9cee75;
+  width: 0;
+  background-color: #287e00;
+}
+
+.rating-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/EcoScore_rating.png"); 
+  background-size: cover;
 }
 
 .rating-container {
   display: flex;
   align-items: center;
 }
+
+.rating-container span {
+  margin-left: 10px;
+}
+
+
 
 .rating-text {
   padding-left: 5px;
