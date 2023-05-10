@@ -18,6 +18,4 @@ export const companies = [
   new Company("Willy:s", 3, 3, 3, 0.0, "test_description.txt", "company_images/company_image.jpeg", "www.willys.com"),
   new Company("Coop", 4, 2, 4, 0.0, "test_description.txt", "company_images/company_image.jpeg", "www.coop.com"),
   new Company("ICA", 5, 5, 4, 0.0, "test_description.txt", "company_images/company_image.jpeg", "www.ica.com"),
-  new Company("Under Armour", 8.3, 7.5, 8.7, 6.9, "test_description.txt", "company_images/underarmour_logo.jpeg", "www.underarmour.com"),
-  new Company("Nike", 7.9, 8.5, 8.2, 7.1, "test_description.txt", "company_images/nike_logo.jpeg", "www.nike.com"),
 ];
