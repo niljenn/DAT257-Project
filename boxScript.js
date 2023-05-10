@@ -87,7 +87,7 @@ function renderBoxes(){
   ratingContainer.className = "rating-container";
   var ratingText = document.createElement("span");
   ratingText.className = "rating-text";
-  ratingText.textContent = boxData.rating;
+  ratingText.textContent = boxData.rating / 2;
 
   ratingContainer.append(boxRatingContainer, "Hållbarhet:", ratingText);
 
