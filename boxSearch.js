@@ -14,23 +14,32 @@ for (var i = 0; i < companies.length; i++) {
     imageFile: company.imageFile,
     detailPageUrl: `./detail_co_page.html?id=${company.id}`
   };
+  console.log(boxData);
   boxesData.push(boxData);
+  console.log(boxData);
 }
-
 function sortBoxesData(query = '') {
-    if (query) {
-      // Sort the array based on the likeness of the query
-      boxesData = search(query)
-    } else {
-      // Sort the array based on the current buttonPressed value
-      if (buttonPressed === "best-to-worst-button") {
-        boxesData.sort((a, b) => b.rating - a.rating);
-      } else if (buttonPressed === "worst-to-best-button") {
-        boxesData.sort((a, b) => a.rating - b.rating);
-      }
+  if (query) {
+    // Sort the array based on the likeness of the query
+    boxesData = search(query);
+  } else {
+    // Sort the array based on the current buttonPressed value
+    if (buttonPressed === "best-to-worst-button") {
+      boxesData.sort((a, b) => b.rating - a.rating);
+    } else if (buttonPressed === "worst-to-best-button") {
+      boxesData.sort((a, b) => a.rating - b.rating);
     }
   }
+
+  for (var i = 0; i < boxesData.length; i++) {
+    var company = companies.find(c => c.name === boxesData[i].name);
+    boxesData[i].rating = company.getOverallScore();
+    boxesData[i].detailPageUrl = `./detail_co_page.html?id=${company.id}`;
+    boxesData[i].maxRating = 10;
+  }
   
+}
+
   const urlParams = new URLSearchParams(window.location.search);
   const query = urlParams.get('query');
   console.log(query); 
@@ -59,11 +68,12 @@ worstToBestButton.addEventListener("click", function() {
 sortBoxesData(query)
 // Call renderBoxes to render all the boxes initially
 renderBoxes();
-function renderBoxes(){
+function renderBoxes() {
   // Container which holds all boxes
   var boxesContainer = document.getElementById("boxesContainer");
   // Clear the boxesContainer
   boxesContainer.innerHTML = "";
+
   for (var i = 0; i < boxesData.length; i++) {
     var boxData = boxesData[i];
     // Box with company information
@@ -72,55 +82,63 @@ function renderBoxes(){
     // Anchor tag to link to detail page
     var detailPageLink = document.createElement("a");
     detailPageLink.href = boxData.detailPageUrl;
-    detailPageLink.addEventListener("click", function(event) {
+    detailPageLink.addEventListener("click", function (event) {
       event.preventDefault();
       var id = this.href.split("=")[1];
-      var company = companies.find(c => c.id == id);
+      var company = companies.find((c) => c.id == id);
       window.location.href = `./detail_co_page.html?id=${id}`;
     });
     // Container for rating
+    var boxInfo = document.createElement("div");
+    boxInfo.className = "box-info";
+    var boxRatingContainer = document.createElement("div");
+    boxRatingContainer.className = "box-rating-container";
 
-  var boxRatingContainer = document.createElement("div");
-  boxRatingContainer.className = "box-rating-container";
+    var ratingBarContainer = document.createElement("div");
+    ratingBarContainer.className = "rating-bar-container";
+    var ratingBar = document.createElement("div");
+    ratingBar.className = "rating-bar";
+    var ratingBarWidth = (boxData.rating / boxData.maxRating) * 100;
+    console.log(`maxRating: ${boxData.maxRating}, rating: ${boxData.rating}`);
+    ratingBar.style.width = ratingBarWidth + '%';
 
-  var ratingBarContainer = document.createElement("div");
-  ratingBarContainer.className = "rating-bar-container";
-  var ratingBar = document.createElement("div");
-  ratingBar.className = "rating-bar";
-  ratingBar.style.width = (boxData.rating / boxData.maxRating) * 100 + "%";
-  ratingBarContainer.appendChild(ratingBar);
-
-  var ratingImage = document.createElement("div");
-  ratingImage.className = "rating-image";
-
-  ratingBarContainer.appendChild(ratingImage);
-
-  boxRatingContainer.appendChild(ratingBarContainer);
-
-  var ratingContainer = document.createElement("div");
-  ratingContainer.className = "rating-container";
-  var ratingText = document.createElement("span");
-  ratingText.className = "rating-text";
-  ratingText.textContent = boxData.rating;
-
-  ratingContainer.append(boxRatingContainer, "Hållbarhet:", ratingText);
-
-
+    ratingBarContainer.appendChild(ratingBar);
     
+
+    var ratingImage = document.createElement("div");
+    ratingImage.className = "rating-image";
+
+    ratingBarContainer.appendChild(ratingImage);
+
+    boxRatingContainer.appendChild(ratingBarContainer);
+
+    var ratingContainer = document.createElement("div");
+    ratingContainer.className = "rating-container";
+    var ratingText = document.createElement("span");
+    ratingText.className = "rating-text";
+    ratingText.textContent = boxData.rating / 2;
+
+    ratingContainer.append(boxRatingContainer, "Hållbarhet:", ratingText);
+    boxInfo.appendChild(ratingContainer);
 
     // Add company image and info to box
     var img = document.createElement("img");
     img.src = boxData.imageFile;
     img.alt = boxData.name;
-    var boxInfo = document.createElement("div");
-    boxInfo.className = "box-info";
     var name = document.createElement("p");
     name.textContent = boxData.name;
     boxInfo.appendChild(name);
-    boxInfo.appendChild(ratingContainer);
     detailPageLink.appendChild(img);
     detailPageLink.appendChild(boxInfo);
     box.appendChild(detailPageLink);
     boxesContainer.appendChild(box);
+
+    // Find the rating bar element
+    var ratingBar = boxRatingContainer.querySelector(".rating-bar");
+    // Set the width of the rating bar based on the rating value
+    ratingBar.style.width = (boxData.rating / boxData.maxRating) * 100 + "%";
+
+
+    
   }
 }
