@@ -52,8 +52,8 @@ var bestToWorstButton = document.getElementById("best-to-worst-button");
 var worstToBestButton = document.getElementById("worst-to-best-button");
 // Initialize buttonPressed to "best-to-worst"
 var buttonPressed = "best-to-worst-button";
-var foodCompaniesButton = document.querySelector(".category");
-var clothCompaniesButton = document.querySelector(".category + .category");
+var foodCompaniesButton = document.getElementById("food");
+var clothCompaniesButton = document.getElementById("clothes");
 
 // Get the buttons by their IDs
 const kladerBtn = document.getElementById("clothing-btn");
@@ -89,6 +89,7 @@ foodCompaniesButton.addEventListener("click", function() {
   sortBoxesData();
   renderBoxes();
 });
+
 
 clothCompaniesButton.addEventListener("click", function() {
   activeCategory = clothCategory;
