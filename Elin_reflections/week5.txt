@@ -1,1 +1,17 @@
+1. What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc? 
+I wanna have a better understanding of how javaScript works.
 
+2. What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+
+I have updated many parts of the website to make it easier to navigate and understand. On the category page I have turned the sort 
+buttons into a dropdown button instead. Now the button will also show which sort function is active by chnaging the name on the 
+dropdown button to the current state. This is also how I've seen many other website having it so it might look more familiar to the user.
+On the start page I designed a background images and placed the features onto that. Then I Updated the search bar so that the placeholder 
+text disapears when on focus and the placeholder and text you write have the same fontsize and color. This makes it easier for the user 
+to regocnize that the search box is active and ready to be used. I also udated the header with our logo and made some other small adjustments 
+with the menu. On the detail page I added a company logo and website to the detail page.
+
+3. Changes/improvements from last week's reflection?
+We have gotten more done this week and it seems like the work have been distributed more equally than last week.
+I also feel like I have gotten a better understanding of the overall system this week when I've been working updating 
+features I haven't worked with before. 
