@@ -92,7 +92,27 @@ function renderBoxes(){
   ratingContainer.append(boxRatingContainer, "Hållbarhet:", ratingText);
 
 
-    
+  //Add eventlistener to checkbox
+  const emissionCb = document.getElementById("emission");
+
+  emissionCb.addEventListener('change', (event) => {
+
+    const isChecked = event.target.checked;
+      for ( var i = 0; i < boxesData.length; i ++ ) {
+        var li = boxesData[i];
+        
+        if(isChecked){
+          //some action
+        }
+
+        else{
+          //some action
+        }
+
+      }
+
+
+  })
 
     // Add company image and info to box
     var img = document.createElement("img");

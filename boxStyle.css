@@ -86,3 +86,16 @@
 .rating-bar-container {
   flex-grow: 1;
 }
+
+
+.ecoLabels{
+  width: 150px;
+  margin-left: 50px;
+  border: 2px solid black;
+  padding: 25px;
+  border-radius: 7px;
+}
+
+.filter{
+  padding: 5px;
+}

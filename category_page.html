@@ -24,7 +24,7 @@
         </div>
 
         <div class="chosen_category">
-            <p class="category_rubric" > Resultat för `${activeCategory.getCategory()}`</p>
+            <p class="category_rubric" > Resultat för Alla Företag</p>
         </div>
 
         <div class="sortDropdown">
@@ -35,6 +35,25 @@
                 <button id="worst-to-best-button">Sämst till bäst</button>
             </div>
         </div>
+
+        <fieldset class="ecoLabels">
+            <legend class="filter"> Filter by :</legend>
+            <div>
+                <input type="checkbox" id="emission" name="emission">
+                <label for="emission">Emission</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="waste" name="waste">
+                <label for="waste">Waste</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="animal" name="animal">
+                <label for="animal">Animal friendly</label>
+            </div>
+        </fieldset> 
+        
 
         <div class="panel">
             <div id="boxesContainer" class="boxes-container">
