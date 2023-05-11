@@ -121,7 +121,7 @@ function renderBoxes() {
     ratingContainer.className = "rating-container";
     var ratingText = document.createElement("span");
     ratingText.className = "rating-text";
-    ratingText.textContent = boxData.rating;
+    ratingText.textContent = boxData.rating / 2;
 
     ratingContainer.append(boxRatingContainer, "Hållbarhet:", ratingText);
     boxInfo.appendChild(ratingContainer);
@@ -142,5 +142,8 @@ function renderBoxes() {
     var ratingBar = boxRatingContainer.querySelector(".rating-bar");
     // Set the width of the rating bar based on the rating value
     ratingBar.style.width = (boxData.rating / boxData.maxRating) * 100 + "%";
+
+
+    
   }
 }
