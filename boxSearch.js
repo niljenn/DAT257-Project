@@ -31,18 +31,13 @@ function sortBoxesData(query = '') {
     }
   }
 
-  // Recalculate the rating values
   for (var i = 0; i < boxesData.length; i++) {
     var company = companies.find(c => c.name === boxesData[i].name);
     boxesData[i].rating = company.getOverallScore();
-
-    // Update maxRating property for each boxData object
-  for (var i = 0; i < boxesData.length; i++) {
-    var company = companies.find((c) => c.name == boxesData[i].name);
+    boxesData[i].detailPageUrl = `./detail_co_page.html?id=${company.id}`;
     boxesData[i].maxRating = 10;
-}
-
   }
+  
 }
 
   const urlParams = new URLSearchParams(window.location.search);
