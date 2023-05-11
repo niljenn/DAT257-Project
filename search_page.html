@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoScore</title>
+    <script type="module" src="boxSearch.js" async></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boxStyle.css">
+    <link rel="stylesheet" href="category.css">
+</head>
+
+<body>
+
+    <div class="main"> <!--Main Background element-->
+
+        <div class="navbar"> <!--Navigation bar element, everything  that is supposed to be in the navigation bar is inside here-->
+
+            <header>
+                <script type="text/javascript" src="./header.js"></script>
+            </header>
+
+        </div>
+
+        <div class="chosen_category">
+            <p class="category_rubric" > Resultat för `${activeCategory.getCategory()}`</p>
+        </div>
+
+        <div class="sortDropdown">
+            <p class="sortText">Sortera efter:</p>
+            <button id="sortButton" class="SortBtn">Bäst till sämst</button>
+            <div class="sort-content">
+                <button id="best-to-worst-button">Bäst till sämst</button>
+                <button id="worst-to-best-button">Sämst till bäst</button>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div id="boxesContainer" class="boxes-container">
+                <div id="search-results"></div>
+
+                <!-- Boxes will be generated here dynamically -->
+              </div>
+          </div>
+          
+
+        <div class="button"></div> <!--Button element, button should be put here-->
+        
+    </div>
+
+</body>
+</html>
+
+

@@ -65,23 +65,35 @@ function renderBoxes(){
       window.location.href = `./detail_co_page.html?id=${id}`;
     });
     // Container for rating
-    var ratingContainer = document.createElement("div");
-    ratingContainer.className = "rating-container";
-    ratingContainer.style.width = "250px";
-    // Rating text
-    var ratingText = document.createElement("p");
-    ratingText.className = "rating-text";
-    ratingText.textContent = `${boxData.rating}/${boxData.maxRating}`;
-    // Rating bar
-    var ratingBarContainer = document.createElement("div");
-    ratingBarContainer.className = "rating-bar-container";
-    var ratingBar = document.createElement("div");
-    ratingBar.className = "rating-bar";
-    ratingBar.style.width = (boxData.rating / boxData.maxRating) * 100 + "%";
-    ratingBarContainer.appendChild(ratingBar);
-    ratingContainer.appendChild(ratingBarContainer);
-    ratingContainer.append("Hållbarhet: ");
-    ratingContainer.appendChild(ratingText);
+
+  var boxRatingContainer = document.createElement("div");
+  boxRatingContainer.className = "box-rating-container";
+
+  var ratingBarContainer = document.createElement("div");
+  ratingBarContainer.className = "rating-bar-container";
+  var ratingBar = document.createElement("div");
+  ratingBar.className = "rating-bar";
+  ratingBar.style.width = (boxData.rating / boxData.maxRating) * 100 + "%";
+  ratingBarContainer.appendChild(ratingBar);
+
+  var ratingImage = document.createElement("div");
+  ratingImage.className = "rating-image";
+
+  ratingBarContainer.appendChild(ratingImage);
+
+  boxRatingContainer.appendChild(ratingBarContainer);
+
+  var ratingContainer = document.createElement("div");
+  ratingContainer.className = "rating-container";
+  var ratingText = document.createElement("span");
+  ratingText.className = "rating-text";
+  ratingText.textContent = boxData.rating;
+
+  ratingContainer.append(boxRatingContainer, "Hållbarhet:", ratingText);
+
+
+    
+
     // Add company image and info to box
     var img = document.createElement("img");
     img.src = boxData.imageFile;
