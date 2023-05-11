@@ -6,6 +6,8 @@ body {
     background-color: rgb(237, 239, 234);
     background-position: center;
     background-size: cover;
+    min-width: 1000px;
+
 }
 .main{
     width: 100vw;
