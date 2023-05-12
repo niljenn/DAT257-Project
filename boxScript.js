@@ -1,6 +1,32 @@
 // Import company data
 import { companies } from './companies.js';
 
+// Array of box data
+var boxesData = [];
+var foodCompaniesData = [];
+var clothCompaniesData = [];
+for (var i = 0; i < companies.length; i++) {
+  var company = companies[i];
+  var boxData = {
+    name: company.name,
+    emission: company.emission,
+    waste: company.plasticUsage,
+    animalwel: company.animalWelfare,
+    rating: company.getOverallScore(),
+    maxRating: 10,
+    imageFile: company.imageFile,
+    detailPageUrl: `./detail_co_page.html?id=${company.id}`
+  };
+  boxesData.push(boxData);
+  if (company.category === "food") {
+    foodCompaniesData.push(boxData);
+  }
+  if (company.category === "cloth") {
+    clothCompaniesData.push(boxData);
+  }
+}
+
+
 // Create Category class
 class Category {
   constructor(name, data) {
@@ -25,27 +51,6 @@ var clothCategory = new Category("Klädföretag", clothCompaniesData);
 // Set active category to foodCategory initially
 var activeCategory = AllCompanies;
 
-// Array of box data
-var boxesData = [];
-var foodCompaniesData = [];
-var clothCompaniesData = [];
-for (var i = 0; i < companies.length; i++) {
-  var company = companies[i];
-  var boxData = {
-    name: company.name,
-    rating: company.getOverallScore(),
-    maxRating: 10,
-    imageFile: company.imageFile,
-    detailPageUrl: `./detail_co_page.html?id=${company.id}`
-  };
-  boxesData.push(boxData);
-  if (company.category === "food") {
-    foodCompaniesData.push(boxData);
-  }
-  if (company.category === "cloth") {
-    clothCompaniesData.push(boxData);
-  }
-}
 // Get references to the "best to worst" and "worst to best" buttons
 const sortButton = document.getElementById("all-companies-btn");
 var bestToWorstButton = document.getElementById("best-to-worst-button");
@@ -97,6 +102,69 @@ clothCompaniesButton.addEventListener("click", function() {
   sortBoxesData();
   renderBoxes();
 });
+
+//Sort by functionality (eco labels)
+const emissionCheck = document.querySelector('#emission');
+const wasteCheck = document.querySelector('#waste');
+const animalCheck = document.querySelector('#animal');
+
+emissionCheck.addEventListener('change', (event) => {
+  const isChecked = event.target.checked;
+
+  if(isChecked){
+    sortLabels();
+    renderBoxes();
+  }
+  else{
+    sortBoxesData();
+    renderBoxes();
+  }
+});
+
+wasteCheck.addEventListener('change', (event) => {
+  const isChecked = event.target.checked;
+
+  if(isChecked){
+    sortLabels();
+    renderBoxes();
+  }
+  else{
+    sortBoxesData();
+    renderBoxes();
+  }
+});
+
+animalCheck.addEventListener('change', (event) => {
+  const isChecked = event.target.checked;
+
+  if(isChecked){
+    sortLabels();
+    renderBoxes();
+  }
+  else{
+    sortBoxesData();
+    renderBoxes();
+  }
+});
+
+function sortLabels () {
+  if(emissionCheck.checked){
+    boxesData.sort((a, b) =>  b.emission - a.emission);
+    console.log(boxesData);
+  }
+
+  else if(wasteCheck.checked){
+    boxesData.sort((a, b) => b.waste - a.waste);
+    console.log(boxesData);
+  }
+
+  else if(animalCheck.checked){
+    boxesData.sort((a, b) => b.animalwel - a.animalwel);
+    console.log(boxesData);
+  }
+
+}
+//End of sort by functionality (eco labels)
 
 
 
