@@ -1,0 +1,34 @@
+
+- What do I want to learn or understand better?
+
+I became the Product Owner of the webpage this week and so I've looked into what this means and how to 
+give valuable input to the team these last weeks in regards to this. 
+
+
+-What is my contribution towards the team's deliveries? How can I help my team do better next sprint?
+
+One of the checkpoints in our to do list from last week didn't get finished because we had some code difficulties.
+This week I took over that area of responsibility and after several hours on multiple days I managed to fix this and
+it resulted in our, now working, search function. You can search for a company and you will get the most relevant companies as hits, 
+if there is no company with a name that is remotely like what you searched for, you will get no search hits.
+You can also click on the companies on this search page and get their detailed info, just as on the category page. 
+This was a little bit hard for me to solve because of a bug where the search function overwrote the information of the companies,
+and I had to do quite a lot of debugging to find the source of the problem. After finding the problem I was able to 
+successfully fix it and now everything on the search page works as expected. 
+Because of this I am happy with my contribution and feel we have gotten a lot closer to a finished product this week.
+We could still use some more design on the page though. 
+
+
+- Changes/improvements from last week's reflection?
+
+This week we have tried to focus on getting as much done as possible as it is the 5th sprint out of 6. 
+This meant that we didn't focus as much on fair workload distribution, instead we focused on getting everyone
+to do what they felt comfortable doing and especially what they felt they were certain they could get done within this week.
+We have also encouraged each other to do more than we were assigned if we had the time, for example if our assigned workload
+was less and took shorter time to finish than expected. 
+
+
+
+
+
+
