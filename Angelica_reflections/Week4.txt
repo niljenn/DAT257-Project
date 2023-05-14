@@ -1,0 +1,25 @@
+
+- What do I want to learn or understand better?
+
+I want to learn some more CSS as I've mostly contributed to the backend code so far.
+
+
+
+-What is my contribution towards the team's deliveries? How can I help my team do better next sprint?
+
+This week I took a smaller role in the team by letting the team members that had not yet coded anything take over the parts
+of the code that we needed to get done this week. Instead I focused on gathering information about some companies for our database, 
+and simply helped a little bit with the design and CSS parts of the code. For example, I helped make the header stay the same
+throughout the entire website using code reuse, and also made the background color stay even when scrolling far down on the category page. 
+
+
+- Changes/improvements from last week's reflection?
+
+This week we made sure that the team members that had not yet coded any backend code got to try that. 
+Everyone in the team seems happy with this and the workload feels more even now compared to other sprints. 
+
+
+
+
+
+

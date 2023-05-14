@@ -1,24 +1,70 @@
 // Import company data
 import { companies } from './companies.js';
+
 // Array of box data
 var boxesData = [];
+var foodCompaniesData = [];
+var clothCompaniesData = [];
 for (var i = 0; i < companies.length; i++) {
   var company = companies[i];
   var boxData = {
     name: company.name,
+    emission: company.emission,
+    waste: company.plasticUsage,
+    animalwel: company.animalWelfare,
     rating: company.getOverallScore(),
     maxRating: 10,
     imageFile: company.imageFile,
     detailPageUrl: `./detail_co_page.html?id=${company.id}`
   };
   boxesData.push(boxData);
+  if (company.category === "food") {
+    foodCompaniesData.push(boxData);
+  }
+  if (company.category === "cloth") {
+    clothCompaniesData.push(boxData);
+  }
 }
+
+
+// Create Category class
+class Category {
+  constructor(name, data) {
+    this.name = name;
+    this.data = data;
+  }
+
+  getCategory() {
+    return this.name;
+  }
+
+  getCompanies() {
+    return this.data;
+  }
+}
+
+// Create new category objects
+var AllCompanies = new Category("Alla Företag", boxesData);
+var foodCategory = new Category("Matföretag", foodCompaniesData);
+var clothCategory = new Category("Klädföretag", clothCompaniesData);
+
+// Set active category to foodCategory initially
+var activeCategory = AllCompanies;
+
 // Get references to the "best to worst" and "worst to best" buttons
-const sortButton = document.getElementById('sortButton');
+const sortButton = document.getElementById("all-companies-btn");
 var bestToWorstButton = document.getElementById("best-to-worst-button");
 var worstToBestButton = document.getElementById("worst-to-best-button");
 // Initialize buttonPressed to "best-to-worst"
 var buttonPressed = "best-to-worst-button";
+var foodCompaniesButton = document.getElementById("food");
+var clothCompaniesButton = document.getElementById("clothes");
+
+// Get the buttons by their IDs
+const kladerBtn = document.getElementById("clothing-btn");
+const matBtn = document.getElementById("food-btn");
+
+
 // Function to sort the boxesData array based on the current buttonPressed value
 function sortBoxesData() {
   if (buttonPressed === "best-to-worst-button") {
@@ -28,6 +74,7 @@ function sortBoxesData() {
   }
 }
 // Add event listeners to the buttons
+
 bestToWorstButton.addEventListener("click", function() {
   buttonPressed = "best-to-worst-button";
   sortBoxesData();
@@ -41,15 +88,105 @@ worstToBestButton.addEventListener("click", function() {
   sortButton.textContent = 'Sämst till bäst';
 });
 
+foodCompaniesButton.addEventListener("click", function() {
+  activeCategory = foodCategory;
+  boxesData = foodCompaniesData;
+  sortBoxesData();
+  renderBoxes();
+});
+
+
+clothCompaniesButton.addEventListener("click", function() {
+  activeCategory = clothCategory;
+  boxesData = clothCompaniesData;
+  sortBoxesData();
+  renderBoxes();
+});
+
+//Sort by functionality (eco labels)
+const emissionCheck = document.querySelector('#emission');
+const wasteCheck = document.querySelector('#waste');
+const animalCheck = document.querySelector('#animal');
+
+emissionCheck.addEventListener('change', (event) => {
+  const isChecked = event.target.checked;
+
+  if(isChecked){
+    sortLabels();
+    renderBoxes();
+  }
+  else{
+    sortBoxesData();
+    renderBoxes();
+  }
+});
+
+wasteCheck.addEventListener('change', (event) => {
+  const isChecked = event.target.checked;
+
+  if(isChecked){
+    sortLabels();
+    renderBoxes();
+  }
+  else{
+    sortBoxesData();
+    renderBoxes();
+  }
+});
+
+animalCheck.addEventListener('change', (event) => {
+  const isChecked = event.target.checked;
+
+  if(isChecked){
+    sortLabels();
+    renderBoxes();
+  }
+  else{
+    sortBoxesData();
+    renderBoxes();
+  }
+});
+
+function sortLabels () {
+  if(emissionCheck.checked){
+    boxesData.sort((a, b) =>  b.emission - a.emission);
+    console.log(boxesData);
+  }
+
+  else if(wasteCheck.checked){
+    boxesData.sort((a, b) => b.waste - a.waste);
+    console.log(boxesData);
+  }
+
+  else if(animalCheck.checked){
+    boxesData.sort((a, b) => b.animalwel - a.animalwel);
+    console.log(boxesData);
+  }
+
+}
+//End of sort by functionality (eco labels)
+
+
+
+
 // Call sortBoxesData to sort the array initially
 sortBoxesData()
 // Call renderBoxes to render all the boxes initially
 renderBoxes();
+
+
 function renderBoxes(){
   // Container which holds all boxes
   var boxesContainer = document.getElementById("boxesContainer");
   // Clear the boxesContainer
   boxesContainer.innerHTML = "";
+
+  // Get reference to chosen category element
+  const chosenCategoryElement = document.querySelector('.chosen_category');
+  // Update chosen category text
+  chosenCategoryElement.querySelector('.category_rubric').textContent = `Resultat för ${activeCategory.getCategory()}`;
+
+
   for (var i = 0; i < boxesData.length; i++) {
     var boxData = boxesData[i];
     // Box with company information
@@ -66,22 +203,22 @@ function renderBoxes(){
     });
     // Container for rating
 
-  var boxRatingContainer = document.createElement("div");
-  boxRatingContainer.className = "box-rating-container";
+    var boxRatingContainer = document.createElement("div");
+    boxRatingContainer.className = "box-rating-container";
 
-  var ratingBarContainer = document.createElement("div");
-  ratingBarContainer.className = "rating-bar-container";
-  var ratingBar = document.createElement("div");
-  ratingBar.className = "rating-bar";
-  ratingBar.style.width = (boxData.rating / boxData.maxRating) * 100 + "%";
-  ratingBarContainer.appendChild(ratingBar);
+    var ratingBarContainer = document.createElement("div");
+    ratingBarContainer.className = "rating-bar-container";
+    var ratingBar = document.createElement("div");
+    ratingBar.className = "rating-bar";
+    ratingBar.style.width = (boxData.rating / boxData.maxRating) * 100 + "%";
+    ratingBarContainer.appendChild(ratingBar);
 
-  var ratingImage = document.createElement("div");
-  ratingImage.className = "rating-image";
+    var ratingImage = document.createElement("div");
+    ratingImage.className = "rating-image";
 
-  ratingBarContainer.appendChild(ratingImage);
+    ratingBarContainer.appendChild(ratingImage);
 
-  boxRatingContainer.appendChild(ratingBarContainer);
+    boxRatingContainer.appendChild(ratingBarContainer);
 
   var ratingContainer = document.createElement("div");
   ratingContainer.className = "rating-container";
@@ -89,7 +226,7 @@ function renderBoxes(){
   ratingText.className = "rating-text";
   ratingText.textContent = boxData.rating / 2;
 
-  ratingContainer.append(boxRatingContainer, "Hållbarhet:", ratingText);
+    ratingContainer.append(boxRatingContainer, "Hållbarhet:", ratingText);
 
 
     

@@ -15,8 +15,8 @@ function createHeader() {
         <div class="dropdown">
         <button class="dropbtn">Kategorier</button>
         <div class="dropdown-content">
-            <a class="category" href="#">Mat</a>
-            <a class="category" href="#">Kläder</a>
+            <a class="category" id="food" href="#">Mat</a>
+            <a class="category" id="clothes" href="#">Kläder</a>
         </div>
         </div>
         <a class="why" href="why_EcoScore.html">Varför EcoScore?</a>

@@ -1,0 +1,18 @@
+Utsläpp: 
+Betyget är baserat på företagets CO2 utsläpp det år som
+senast redovisades i deras hållbarhets rapport.
+För att företagen ska vara någorlundda jämna i betygsättningen
+har vi tagit antalet ton (i utsläpp) delat med företagets 
+omsättning. 
+
+
+Avfall:
+Betyget för avfall är baserat på antalet ton (i avfall)
+delat med företagets omsättning. Vi delar med omsätttningen i detta 
+fall så som för utsläppen för att göra betygen så rättvisa som
+möjligt.
+
+Djurskydd:
+Hur djurvänliga företagen är har vi baserat på hur många djurvänliga 
+etiketter de använder, samt hur mycket information det finns om djurrättigheter
+i överlag hos företaget. 

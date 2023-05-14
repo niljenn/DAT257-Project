@@ -1,0 +1,25 @@
+
+- What do I want to learn or understand better?
+
+This week I learned some more about HTML and Javascript, and next week I will focus on gathering
+relevant information and where one is able to find trustworthy sources. 
+
+
+
+-What is my contribution towards the team's deliveries? How can I help my team do better next sprint?
+
+In sprint 3 I am happy with my contribution to the team's deliveries as I was responsible for making the functionality of
+the category page's interactability  in terms of the companies displayed being clickable and leading to their individual detail page.
+This detail page is dynamically filled out with the relevant company's information which is gathered from the company object that holds all the information.
+
+
+- Changes/improvements from last week's reflection?
+
+This week we did better at distributing the workload, but we felt that we can still do better and therefore next week we will try to let
+the team members that didn't code much get some more code responsibilities so that everyone has taken part in the final product.
+
+
+
+
+
+

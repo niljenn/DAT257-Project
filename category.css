@@ -1,5 +1,5 @@
 .chosen_category { 
-    width:100%;
+    min-width: 1680px;
     height:200px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -16,12 +16,14 @@
     text-align: center;
 }
 
-.sortDropdown{
+.sortDropdown {
     display: inline-block;
-    position: relative;
-    margin-left: 670px;
-    margin-bottom: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
 }
+
 
 .sortText{
     float: left;
@@ -69,5 +71,5 @@
 }
 
 .panel {
-    position: relative;
+    overflow-y: auto; 
   }
