@@ -1,6 +1,7 @@
 .chosen_category { 
-    min-width: 1680px;
+    /*min-width: 1680px; /*Makes it so middle part deos not glide*/
     height:200px;
+    align-self: center;
     margin-top: 10px;
     margin-bottom: 15px;
     background:rgb(63, 152, 107);
