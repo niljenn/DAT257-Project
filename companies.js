@@ -6,7 +6,7 @@ export const companies = [
   new Company("UNIQLO", 4, 2, 2, 8.1, "test_description.txt", "company_images/uniqlo_logo.jpeg", "www.uniqlo.com", "cloth"),
   new Company("H&M", 3, 7, 5, 7.2, "test_description.txt", "company_images/hm_logo.jpeg", "www.h&m.com", "cloth"),
   new Company("ZARA", 3, 6, 3, 7.8, "test_description.txt", "company_images/zara_logo.jpeg", "www.zara.com", "cloth"),
-  new Company("Lidl", 3, 5, 2, 10.0, "test_description.txt", "company_images/company_image.jpeg", "www.goodcompany.com", "food"),
+  new Company("Lidl", 3, 5, 2, 10.0, "lidl.txt", "company_images/company_image.jpeg", "www.goodcompany.com", "food"),
   new Company("Tommy Hilfiger", 4, 6, 3, 3.6, "test_description.txt", "company_images/tommyhilfiger_logo.jpeg", "www.tommyhillfiger.com", "cloth"),
   new Company("Calvin Klein", 4, 6, 3, 8.0, "test_description.txt", "company_images/calvinklein_logo.jpeg", "www.calvinklein.com", "cloth"),
   new Company("Van Heusen", 4, 6, 3, 8.0, "test_description.txt", "company_images/vanheusen_logo.jpeg", "www.vanheusen.com", "cloth"),
