@@ -13,19 +13,22 @@
 
 <body>
 
+    <div class="navbar"> <!--Navigation bar element, everything  that is supposed to be in the navigation bar is inside here-->
+
+        <header>
+            <script type="text/javascript" src="./header.js"></script>
+        </header>
+
+    </div>
+
+    <div class="chosen_category">
+        <p class="category_rubric" > Resultat för `${activeCategory.getCategory()}`</p>
+    </div>
+
+
+
+
     <div class="main"> <!--Main Background element-->
-
-        <div class="navbar"> <!--Navigation bar element, everything  that is supposed to be in the navigation bar is inside here-->
-
-            <header>
-                <script type="text/javascript" src="./header.js"></script>
-            </header>
-
-        </div>
-
-        <div class="chosen_category">
-            <p class="category_rubric" > Resultat för Alla Företag</p>
-        </div>
 
         <div class="sortDropdown">
             <p class="sortText">Sortera efter:</p>
@@ -35,6 +38,7 @@
                 <button id="worst-to-best-button">Sämst till bäst</button>
             </div>
         </div>
+
 
         <fieldset class="ecoLabels">
             <legend class="filter"> Bäst av :</legend>

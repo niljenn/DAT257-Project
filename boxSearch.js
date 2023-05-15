@@ -73,6 +73,8 @@ function renderBoxes() {
   var boxesContainer = document.getElementById("boxesContainer");
   // Clear the boxesContainer
   boxesContainer.innerHTML = "";
+  document.getElementById('search_hits').textContent = `Sökresultat för "${query}": ${boxesData.length} träffar`;
+
 
   for (var i = 0; i < boxesData.length; i++) {
     var boxData = boxesData[i];

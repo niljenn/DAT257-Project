@@ -220,11 +220,11 @@ function renderBoxes(){
 
     boxRatingContainer.appendChild(ratingBarContainer);
 
-    var ratingContainer = document.createElement("div");
-    ratingContainer.className = "rating-container";
-    var ratingText = document.createElement("span");
-    ratingText.className = "rating-text";
-    ratingText.textContent = boxData.rating;
+  var ratingContainer = document.createElement("div");
+  ratingContainer.className = "rating-container";
+  var ratingText = document.createElement("span");
+  ratingText.className = "rating-text";
+  ratingText.textContent = boxData.rating / 2;
 
     ratingContainer.append(boxRatingContainer, "Hållbarhet:", ratingText);
 
