@@ -213,3 +213,155 @@ input:focus::placeholder {color: transparent;}
 .cbtn:hover{
     color: rgb(232, 237, 234);
 }
+
+
+
+
+
+
+h5{
+    /*font-family: "Lato",sans-serif;*/
+    font-style: italic;
+    font-weight: 300px;
+    letter-spacing: 1px;
+    font-size: 40px;
+
+}
+
+
+h6{
+    font-style: italic;
+    font-weight: 300px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: rgb(63, 152, 107);
+}
+
+h7{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: rgb(63, 152, 107);
+}
+
+
+p{
+    font-family: "Lato",sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+p1{
+    font-style: italic;
+    font-family: "Lato",sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+
+.textflex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:left;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+
+.smallpadding{
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+
+
+
+
+.coolheader{
+    position: relative;
+    text-align: center;
+    background: linear-gradient(
+        60deg,
+        rgba(63, 152, 107, 1) 0%,
+        rgba(120, 242, 136, 1) 100%
+    );
+    color: white;
+}
+
+.inner-header{
+    height: 30vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+
+.colors-rgba{
+
+    rgba(63, 152, 107, 1) 0%,
+    rgba(131, 133, 250, 1) 100%
+
+
+    rgba(120, 170, 242, 1) 100%
+
+    rgba(120, 242, 136, 1) 100%
+
+
+
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+
+
+        border: 3px solid #fe444425;
+        border-top: 3px solid red;
+
+
+        border: 3px solid #fee84422;
+        border-top: 3x solid #f9ce24;
+
+
+
+}
+
+.circle1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #fe444425;
+    border-top: 3px solid rgb(63, 152, 107);
+    animation: ani 5s linear infinite;
+}
+
+.circle2{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 3px solid #fe444425;
+    border-top: 3px solid rgb(63, 152, 107);
+    animation: ani 8s linear infinite;
+}
+
+@keyframes ani {
+    0%{
+        transform: rotate(0deg);
+      }
+    100%{
+        transform: rotate(360deg);
+        }
+}
