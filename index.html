@@ -40,13 +40,15 @@
         
         
     </div>
-<script type="module" src="search.js"></script>
-<script>
-    document.getElementById("searchbtn").addEventListener("click", function() {
-        var query = document.getElementById("searchbar").value;
-        window.location.href = "search_page.html?query=" + encodeURIComponent(query);
-    });
-</script>
+    <script type="module" src="search.js"></script>
+    <script>
+        document.getElementById("searchbtn").addEventListener("click", function() {
+            var query = document.getElementById("searchbar").value;
+            if (query.trim() !== "") {
+                window.location.href = "search_page.html?query=" + encodeURIComponent(query);
+            }
+        });
+    </script>
 </body>
 </html>
 

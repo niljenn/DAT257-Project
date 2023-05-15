@@ -65,7 +65,9 @@ const kladerBtn = document.getElementById("clothing-btn");
 const matBtn = document.getElementById("food-btn");
 document.getElementById("searchbtn").addEventListener("click", function() {
   var query = document.getElementById("searchbar").value;
-  window.location.href = "search_page.html?query=" + encodeURIComponent(query);
+  if (query.trim() !== "") {
+      window.location.href = "search_page.html?query=" + encodeURIComponent(query);
+  }
 });
 
 // Function to sort the boxesData array based on the current buttonPressed value
