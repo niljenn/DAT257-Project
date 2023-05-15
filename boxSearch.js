@@ -4,7 +4,9 @@ import { search } from './search.js';
 
 document.getElementById("searchbtn").addEventListener("click", function() {
   var query = document.getElementById("searchbar").value;
-  window.location.href = "search_page.html?query=" + encodeURIComponent(query);
+  if (query.trim() !== "") {
+      window.location.href = "search_page.html?query=" + encodeURIComponent(query);
+  }
 });
 
 // Array of box data
