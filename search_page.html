@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="boxStyle.css">
     <link rel="stylesheet" href="category.css">
+    <style>
+        .srchbar{
+            position: absolute;
+            bottom: 370px;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            z-index: 1;
+            width: 500px;
+            height: 40px;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,6 +36,11 @@
 
         <div class="chosen_category">
             <p id="search_hits" class="category_rubric"></p>
+        </div>
+        
+        <div id="srchbar" class="srchbar">
+            <input id="searchbar" class="srch" type="search" name="" placeholder="Sök företag eller kategori">
+            <button id="searchbtn" class="srchbtn">Sök</button>
         </div>
         
 

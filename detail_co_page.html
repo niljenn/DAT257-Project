@@ -8,6 +8,17 @@
     <script type="module" src="CompanyDetailScript.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="detail_page.css">
+    <style>
+        .srchbar{
+            position: absolute;
+            bottom: 370px;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            z-index: 1;
+            width: 500px;
+            height: 40px;
+        }
+    </style>
 </head>
 <body>
     <div class="detailPage">
@@ -34,6 +45,10 @@
         <div class="ecoScore_Summary">
             <p class="scoreText" id="scoreText">the data we gathered about the company: `${activeCompany.getDescription()}`</p>
         </div>
+    </div>
+    <div id="srchbar" class="srchbar">
+        <input id="searchbar" class="srch" type="search" name="" placeholder="Sök företag eller kategori">
+        <button id="searchbtn" class="srchbtn">Sök</button>
     </div>
 </body>
 </html>

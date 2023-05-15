@@ -1,5 +1,6 @@
 import { companies } from './companies.js';
 
+
 document.addEventListener("DOMContentLoaded", function() {
 
  
@@ -9,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const companyId = urlParams.get('id');
     const activeCompany = companies.find(company => company.id == companyId);
     document.getElementById("companyName").textContent = activeCompany.name;
+    
 
 
 
@@ -45,6 +47,7 @@ export function displayCompanyDetails(company) {
     const plasticScoreElement = document.getElementById('plasticScore');
     const otherScoreElement = document.getElementById('otherScore');
     const scoreTextElement = document.getElementById('scoreText');
+
   
     // Update the elements with the company details
     logoElement.src = company.logoImg;
@@ -56,4 +59,7 @@ export function displayCompanyDetails(company) {
     otherScoreElement.innerText = company.otherScore;
     scoreTextElement.innerText = company.getDescription();
   }
-  
+  document.getElementById("searchbtn").addEventListener("click", function() {
+    var query = document.getElementById("searchbar").value;
+    window.location.href = "search_page.html?query=" + encodeURIComponent(query);
+  });

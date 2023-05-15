@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="boxStyle.css">
     <link rel="stylesheet" href="category.css">
+    <style>
+        .srchbar{
+            position: absolute;
+            bottom: 370px;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            z-index: 1;
+            width: 500px;
+            height: 40px;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,6 +31,12 @@
         </header>
 
     </div>
+
+    <div id="srchbar" class="srchbar">
+        <input id="searchbar" class="srch" type="search" name="" placeholder="Sök företag eller kategori">
+        <button id="searchbtn" class="srchbtn">Sök</button>
+    </div>
+    
 
     <div class="chosen_category">
         <p class="category_rubric" > Resultat för `${activeCategory.getCategory()}`</p>

@@ -63,7 +63,10 @@ var clothCompaniesButton = document.getElementById("clothes");
 // Get the buttons by their IDs
 const kladerBtn = document.getElementById("clothing-btn");
 const matBtn = document.getElementById("food-btn");
-
+document.getElementById("searchbtn").addEventListener("click", function() {
+  var query = document.getElementById("searchbar").value;
+  window.location.href = "search_page.html?query=" + encodeURIComponent(query);
+});
 
 // Function to sort the boxesData array based on the current buttonPressed value
 function sortBoxesData() {
