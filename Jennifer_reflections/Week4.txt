@@ -1,0 +1,25 @@
+Sprint 4 Reflection
+
+1. What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc?
+
+I want to learn to estimate work time better after this sprint. The team and I have, during earlier sprints,
+been doing a good job of estimating the time of the user stories, but this week we/I did not do a good job. So I want 
+to learn to actually give more time to reflect on how long something might take. Regarding the code I want to learn 
+how to connect different parts of html elements as best as possible, as this has been a bit of a struggle this far. 
+
+2. What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+
+This week my focus was to help with connecting the search function to the search view that we were supposed to have. 
+Although we had an algorithm from last week, something did not work when we tried to connect the two things, so another
+member that had to change parts of that code. Which led to scratching the part that I had worked on, the good thing is
+that it wasn't a lot of code that we removed. Other than this I gathered information this week. Overall though, I could 
+have gotten more work done this sprint. I don't really know why I didn't do more, but I belive it was because we 
+decided who should do what at the beginning of the week and when I was done I didn't think to start something else. 
+Next week I will help the team by taking more action, and when I feel that me or someone else is finished early with the 
+work assigned to them I will try to start a discussion of what more can be done. 
+
+3. Changes/improvements from last week's reflection?
+
+The changes are that sometimes the work that has been done has to be scratched or modified, to make the code better,
+like the search function. But I improved how to work in javascript, I learned more abot using html and javascript together, like 
+connecting buttons. 
