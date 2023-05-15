@@ -1,0 +1,24 @@
+Sprint 5 Reflection
+
+1. What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc?
+
+I want to understand our code better. Since we have mostly worked on seperate parts of the code I would like to understand the 
+others code too, so that we can improve the code next sprint. I want to continue to learn more about javascript, css and
+html. I also want to learn how to be a better team member so that the others know where I stand during the week with the
+work that I'm supposed to do.
+
+2. What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+
+This sprint I contibuted with creating a function for sorting the companies based on their eco labels, such as 
+waste, emission, and animal welfare. I created it with checkboxes so that we could fill the category page out a bit. 
+This week I also let the team know where I was at during the week so that they knew the function would be done, and 
+when it was done. Next sprint I will keep writing to my team members and let them know how far along I have gotten with 
+my work, since I notice that this can help the others, but I will also help the others when they need it so that the
+product moves forward. 
+
+
+3. Changes/improvements from last week's reflection?
+
+An improvement from last week was that I learned how to connect buttons/checkbuttons to an actual function that makes them
+do something. A change is also that I had better contact with the team and messaged them to let them know how far along I had
+gotten with my work, which I was not that good at last sprint. 
