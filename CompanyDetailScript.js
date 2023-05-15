@@ -1,7 +1,9 @@
+
+
 import { companies } from './companies.js';
 
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", async function() {
 
  
       
@@ -30,10 +32,18 @@ document.addEventListener("DOMContentLoaded", function() {
     animalScore.textContent = `${activeCompany.animalWelfare}/10`;
     plasticScore.textContent = `${activeCompany.plasticUsage}/10`;
     otherScore.textContent = `${activeCompany.other}/10`;
-    scoreText.textContent = `What we think about ${activeCompany.name} based on the data we gathered...`;
-    console.log("Hello from CompanyDetailScript.js!");
 
+    
 
+    scoreText.textContent = `What we think about ${activeCompany.name} based on the data we gathered:`;
+    try {
+      const description = await activeCompany.getDescription();
+      scoreText.textContent += ` ${description}`;
+    } catch (error) {
+      console.error('Error retrieving description:', error);
+    }
+  
+  
 
 });
 
