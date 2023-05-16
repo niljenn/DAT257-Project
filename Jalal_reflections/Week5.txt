@@ -1,0 +1,10 @@
+What do I want to learn or understand better? Consider e.g. teamwork, Scrum, agile processes, technologies etc? 
+Our comprehension of the Agile process has significantly improved, and the contributions from all team members have increased significantly. Furthermore, I have been actively involved in the backend development of the project, which has greatly enhanced my proficiency in the JavaScript language. As we approach the project's conclusion, the Scrum board appears to be in excellent shape, with a majority of the cards being moved to the "done" column. We are now approaching the final stages of delivering a releasable product.
+
+What is my contribution towards the team’s deliveries? How can I help my team do better next sprint?
+I have implemented a new feature that allows filtering of companies based on their respective categories. Currently, this feature is functional only on the dropdown buttons within the category page, which was my assigned task for this week. However, I attempted to extend this functionality to both the dropdown buttons and the category buttons on the main page, but unfortunately, I was not successful in my implementation.
+
+We have discussed this issue, and it has been assigned to me to resolve in the upcoming sprint.
+
+changes/improvements from last week's reflection?
+I now have a much clearer understanding of the code and the relationship between the HTML files and the JavaScript classes. Additionally, I have acquired the knowledge of how to add new methods that filter specific elements from a list.
