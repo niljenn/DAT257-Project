@@ -2,11 +2,35 @@
 
 
 1.
+I'm intrigued by the idea of creating and designing animations for webpages.
+I find it fascinating how movement can bring a sense of liveliness and realism.
+However, I'm uncertain about the complexity and time required to implement animations.
+It might be more practical to focus on other tasks since animations are not essential for functionality.
+Still, I have the aspiration to explore and learn more about animation techniques.
 
+I would appreciate improved collaboration within the group.
+Working together would make the experience more enjoyable.
+Currently, it feels like we are working individually rather than as a cohesive team.
+While this might be how the scrum framework operates, I genuinely desire more collaborative work and open discussions.
 
 
 2.
-
+I worked on both frontend and backend code for the search page, but unfortunately, it didn't meet the standards required for our final project.
+Although I still learned a lot from the experience, I feel somewhat undervalued as a team member compared to others.
+Despite knowing the group members for a while, I haven't had much prior experience working with all of them together.
+It's challenging for me to express differing opinions within the group, perhaps because I don't feel fully integrated.
+I may have made a mistake by joining this group, and I had hoped that new people would also join the group to bring some change to the group dynamic.
+I often feel stuck in the role of the shy outsider, and it's difficult to change that when it seems like the group isn't fully receptive.
+I recognize that this might be mostly my own fault.
+I know that in future jobs, I'll encounter new and different people, and it's crucial to work effectively with them, even if we don't immediately "click".
+The ability to collaborate with diverse individuals is a valuable soft skill, and it's important to learn from our mistakes along the way.
 
 
 3.
+I gained additional knowledge about programming functional websites.
+In our group, we had a productive discussion about the design and layout of the company detail page,
+which was helpful, even though my input in the discussion not being as appreciated as that of others.
+Personally, I value discussions because they provide valuable insights and different perspectives.
+It's enlightening to hear others' opinions and viewpoints, as it expands our understanding.
+I believe there are no definitive right or wrong answers or approaches, it's important to explore different possibilities and iterate on existing ideas.
+This fosters a stronger sense of collaboration within the group.

@@ -4,7 +4,12 @@
     align-self: center;
     margin-top: 10px;
     margin-bottom: 15px;
-    background:rgb(63, 152, 107);
+    background: linear-gradient(
+            60deg,
+            rgba(63, 152, 107, 1) 0%,
+            rgba(120, 242, 136, 1) 100%
+        );
+    /*background:rgb(63, 152, 107);*/
     /* (71,148,102)  */
     box-sizing: border-box; /*Padding and border are included in width/height*/
 }

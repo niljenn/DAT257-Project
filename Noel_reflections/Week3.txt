@@ -2,11 +2,19 @@
 
 
 1.
-
+I want to get better at programming and designing webpages.
+I'm interested in both frontend and backend development, but I want to focus more on improving my design skills.
 
 
 2.
-
+I gathered sustainability data about companies, mainly focusing on their ecological aspects.
+However, it was difficult and time-consuming to find the data without clear instructions on how to present it.
+Having an example of the final presentation would make the data collection process easier.
+I suggest involving the product manager more in determining how the data should be presented.
+I believe it would be more efficient to utilize existing ESG data rather than creating our own, even if it may be less charming from a consumer perspective.
+This would allow us to prioritize programming and website design, which I believe are more crucial areas to focus on.
 
 
 3.
+I learned a lot about how companies share their operational and financial data.
+It seems that both I and the team didn't fully understand how challenging it would be to gather and present this information in a meaningful way.

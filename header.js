@@ -11,7 +11,7 @@ function createHeader() {
         </a>
     </div>
     <div class="menu">
-        <a class="about" href="om_oss.html">Om oss</a>
+        <a class="about" href="om_oss.html">Om hemsidans principer</a>
         <div class="dropdown">
         <button class="dropbtn">Kategorier</button>
         <div class="dropdown-content">
@@ -19,7 +19,7 @@ function createHeader() {
             <a class="category" id="clothes" href="#">Kläder</a>
         </div>
         </div>
-        <a class="why" href="why_EcoScore.html">Varför EcoScore?</a>
+        <a class="why" href="why_EcoScore.html">Varför just EcoScore?</a>
     </div> 
     </div>
     `;
