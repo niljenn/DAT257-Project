@@ -48,40 +48,33 @@
     width: 50px;
     float: left;
     padding-top: 25px;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 .emmisionScore {
     font-size: 30px;
     font-weight: lighter;
     color: rgb(0, 115, 118);
-    padding-top: 30px;
-    margin-left: px;
+    padding-top: 33px;
+    padding-left: 15px;
     float: left;
 }
 .animalScore {
     font-size: 30px;
     font-weight: lighter;
     color: rgb(0, 115, 118);
-    padding-top: 30px;
-    margin-left: 5px;
+    padding-top: 33px;
+    padding-left: 15px;
     float: left;
 }
 .plasticScore {
     font-size: 30px;
     font-weight: lighter;
     color: rgb(0, 115, 118);
-    padding-top: 30px;
-    margin-left: 5px;
+    padding-top: 33px;
+    padding-left: 15px;
     float: left;
 }
-.otherScore {
-    font-size: 30px;
-    font-weight: lighter;
-    color: rgb(0, 115, 118);
-    padding-top: 30px;
-    margin-left: 5px;
-    float: left;
-}
+
 .ecoScore_Summary {
     width: 1000px;
     background:rgb(255, 255, 255);
