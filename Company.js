@@ -16,7 +16,7 @@ class Company {
   }
 
   getOverallScore() {
-    const weights = [0.4, 0.2, 0.2, 0.2]; //weights for each factor: emission, plasticUsage, animalWelfare, other
+    const weights = [0.4, 0.2, 0.2, 0]; //weights for each factor: emission, plasticUsage, animalWelfare, other
     const scores = [this.emission, this.plasticUsage, this.animalWelfare, this.other];
     const weightedScores = scores.map((score, index) => score * weights[index]); //multiply by weight
     const sum = weightedScores.reduce((accumulator, currentValue) => accumulator + currentValue);
