@@ -31,14 +31,40 @@ document.addEventListener("DOMContentLoaded", async function() {
     emmisionScore.textContent = `${activeCompany.emission}/10`;
     animalScore.textContent = `${activeCompany.animalWelfare}/10`;
     plasticScore.textContent = `${activeCompany.plasticUsage}/10`;
-    otherScore.textContent = `${activeCompany.other}/10`;
+    
 
     
 
-    scoreText.textContent = `What we think about ${activeCompany.name} based on the data we gathered:`;
+    
     try {
       const description = await activeCompany.getDescription();
-      scoreText.textContent += ` ${description}`;
+      const sections = description.split('\n\n'); //Assuming sections are seperated by double line breaks
+
+      let isFirstSection = true;
+        const scoreText = document.getElementById('scoreText');
+
+        sections.forEach((section, index) => {
+          if (isFirstSection) {
+            scoreText.innerHTML += `<p>${section.replace(/\n/g, '<br>')}</p>`;
+            isFirstSection = false;
+          } else {
+            let heading;
+            switch (index) {
+              case 1:
+                heading = 'Avfall:';
+                break;
+              case 2:
+                heading = 'Djurskydd:';
+                break;
+              default:
+                heading = `Section ${index}:`;
+            }
+
+            scoreText.innerHTML += `<h3>${heading}</h3>`;
+            scoreText.innerHTML += `<p>${section.replace(/\n/g, '<br>')}</p>`;
+          }
+        });
+
     } catch (error) {
       console.error('Error retrieving description:', error);
     }

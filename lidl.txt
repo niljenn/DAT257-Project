@@ -1,4 +1,5 @@
 Utsläpp: 
+
 Betyget är baserat på företagets CO2 utsläpp det år som
 senast redovisades i deras hållbarhets rapport.
 För att företagen ska vara någorlundda jämna i betygsättningen
@@ -16,6 +17,7 @@ där än och det är av den anledningen de får ett lågt betyg.
 
 
 Avfall:
+
 Betyget för avfall är baserat på antalet ton (i avfall)group-wide Code of Conduct
 delat med företagets omsättning. Vi delar med omsätttningen i detta 
 fall så som för utsläppen för att göra betygen så rättvisa som
@@ -29,7 +31,9 @@ För att undvika matavfall så försöker företaget ge mat, som fortafarande
 för att minska plast användningen, men även att fundamentalt ändra hur plast ska hanteras. Med 
 denna information och antalet ton de släpper ut så har Lidl fått ett lite bättre betyg för avfall. 
 
+
 Djurskydd:
+
 Hur djurvänliga företagen är har vi baserat på hur många djurvänliga 
 etiketter de använder, samt hur mycket information det finns om djurrättigheter
 i överlag hos företaget. 
