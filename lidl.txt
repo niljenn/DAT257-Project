@@ -1,10 +1,13 @@
-Utsläpp: 
+<h3 class="detail_h3">Utsläpp </h3>
+<br/>
 
 Betyget är baserat på företagets CO2 utsläpp det år som
 senast redovisades i deras hållbarhets rapport.
 För att företagen ska vara någorlundda jämna i betygsättningen
 har vi tagit antalet ton (i utsläpp) delat med företagets 
 omsättning. 
+<br/>
+<br/>
 
 När Lidl ska välja leverantörer så tar de hänsyn till och 
 följer en koncernövergripande uppförandekod som innehåller Paris Climate Agreement
@@ -14,14 +17,19 @@ Schwarz Group som har ett annat företag, Schwarz Produktion, som
 delvis jobbar med att hitta energilsöningar till Lidl för att dra ner på CO2 
 utsläppen. Men trots deras försök till att förbättra sina CO2 utsläpp så är de inte 
 där än och det är av den anledningen de får ett lågt betyg. 
+<br/>
+<br/>
+<br/>
 
-
-Avfall:
+<h3 class="detail_h3">Avfall </h3>
+<br/>
 
 Betyget för avfall är baserat på antalet ton (i avfall)group-wide Code of Conduct
 delat med företagets omsättning. Vi delar med omsätttningen i detta 
 fall så som för utsläppen för att göra betygen så rättvisa som
 möjligt.
+<br/>
+<br/>
 
 När det gäller Lidl's avfall så finns det inte så mycket information, däremot står det
 information om Schwarz Group och hur de hanterar avfallet. Det som kan ses är att runt 87% av
@@ -30,13 +38,18 @@ För att undvika matavfall så försöker företaget ge mat, som fortafarande
 är konsumerbart, till matbanker. När det gäller plast användning så har de en strategi/ett mål
 för att minska plast användningen, men även att fundamentalt ändra hur plast ska hanteras. Med 
 denna information och antalet ton de släpper ut så har Lidl fått ett lite bättre betyg för avfall. 
+<br/>
+<br/>
+<br/>
 
-
-Djurskydd:
+<h3 class="detail_h3">Djurskydd </h3>
+<br/>
 
 Hur djurvänliga företagen är har vi baserat på hur många djurvänliga 
 etiketter de använder, samt hur mycket information det finns om djurrättigheter
 i överlag hos företaget. 
+<br/>
+<br/>
 
 Det finns inte mycket information om hur djurvänlig Lidl är och vilka 
 åtgärder de tar för att ta hand om djuren. De har däremot hållbarhetsmärken 

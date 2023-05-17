@@ -38,32 +38,9 @@ document.addEventListener("DOMContentLoaded", async function() {
     
     try {
       const description = await activeCompany.getDescription();
-      const sections = description.split('\n\n'); //Assuming sections are seperated by double line breaks
+      const scoreText = document.getElementById('scoreText');
+      scoreText.innerHTML = description;
 
-      let isFirstSection = true;
-        const scoreText = document.getElementById('scoreText');
-
-        sections.forEach((section, index) => {
-          if (isFirstSection) {
-            scoreText.innerHTML += `<p>${section.replace(/\n/g, '<br>')}</p>`;
-            isFirstSection = false;
-          } else {
-            let heading;
-            switch (index) {
-              case 1:
-                heading = 'Avfall:';
-                break;
-              case 2:
-                heading = 'Djurskydd:';
-                break;
-              default:
-                heading = `Section ${index}:`;
-            }
-
-            scoreText.innerHTML += `<h3>${heading}</h3>`;
-            scoreText.innerHTML += `<p>${section.replace(/\n/g, '<br>')}</p>`;
-          }
-        });
 
     } catch (error) {
       console.error('Error retrieving description:', error);
