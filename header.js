@@ -11,7 +11,7 @@ function createHeader() {
         </a>
     </div>
     <div class="menu">
-        <a class="about" href="om_oss.html">Om hemsidans principer</a>
+        <a class="about" href="om_oss.html">Om våra principer</a>
         <div class="dropdown">
         <button class="dropbtn">Kategorier</button>
         <div class="dropdown-content">
