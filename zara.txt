@@ -1,0 +1,61 @@
+<h3 class="detail_h3">Utsläpp </h3>
+<br/>
+
+Betyget är baserat på företagets CO2 utsläpp det år som
+senast redovisades i deras hållbarhets rapport.
+För att företagen ska vara någorlundda jämna i betygsättningen
+har vi tagit antalet ton (i utsläpp) delat med företagets 
+omsättning. 
+<br/>
+<br/>
+
+Zara har satt upp mål för att minska sitt koldioxidavtryck och har åtagit sig att 
+bli ett klimatneutralt företag. De strävar efter att uppnå 
+detta genom att öka energieffektiviteten, gå över till 
+förnybara energikällor och utforska innovativ teknik för att 
+minska utsläppen i deras butiker, distributionscenter och tillverkningsprocesser. 
+De samarbetar också med leverantörer för att uppmuntra hållbara metoder i hela 
+sin leverantörskedja. Däremot så har Zara fått ett lägre betyg för utsläpp to antalet
+ton de släpper ut är mycket i förhållande till omsättningen.
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Avfall </h3>
+<br/>
+
+Betyget för avfall är baserat på antalet ton (i avfall)
+delat med företagets omsättning. Vi delar med omsätttningen i detta 
+fall så som för utsläppen för att göra betygen så rättvisa som
+möjligt.
+<br/>
+<br/>
+
+Zara strävar efter att minska avfallsgenereringen och främja 
+cirkularitet. Zara har genomfört initiativ för att optimera 
+materialanvändningen, minska förpackningsavfallet och öka 
+återvinningen och återanvändningen av material. De uppmuntrar 
+kunder att delta i plaggåtervinningsprogram, vilket gör 
+att de kan lämna tillbaka oönskade föremål för återvinning eller donation.
+Av dessa nämda anledningar så har Zara fått ett lite högre betyg inom avfall.
+
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Djurvänlighet </h3>
+<br/>
+
+Hur djurvänliga företagen är har vi baserat på hur många djurvänliga 
+etiketter de använder, samt hur mycket information det finns om djurrättigheter
+i överlag hos företaget. 
+<br/>
+<br/>
+
+Det finns inte mycket information om Zaras djurvälfärd men de har fastställt 
+riktlinjer och krav för ansvarsfull inköp av material från djur. De 
+strävar efter att säkerställa att djurskyddsstandarder uppfylls av 
+deras leverantörer, särskilt för material som ull och läder. De försöker 
+arbeta med partners som prioriterar etisk behandling och ansvarsfull praxis.

@@ -1,0 +1,62 @@
+<h3 class="detail_h3">Utsläpp </h3>
+<br/>
+
+Betyget är baserat på företagets CO2 utsläpp det år som
+senast redovisades i deras hållbarhets rapport.
+För att företagen ska vara någorlundda jämna i betygsättningen
+har vi tagit antalet ton (i utsläpp) delat med företagets 
+omsättning. 
+<br/>
+<br/>
+
+PVH är det företag som äger märket och de tar åtgärder för att förbättra CO2 utsläppen
+för alla de företag som ägs av dem. De har satt upp mål för att minimera 
+utsläppen från sin egen verksamhet, inklusive butiker, kontor och 
+distributionscenter. PVH syftar till att förbättra energieffektiviteten, 
+övergången till förnybara energikällor och utforska innovativ teknik för 
+att minska utsläppen. De samarbetar också med leverantörer för att främja 
+hållbara metoder och minska utsläppen i hela sin leverantörskedja.
+Med datan vi har från antalet ton de släpper ut i förhållande till deras omsättning 
+så har de fått ett medel betyg, då de kan bli bätttre.
+
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Avfall </h3>
+<br/>
+
+Betyget för avfall är baserat på antalet ton (i avfall)
+delat med företagets omsättning. Vi delar med omsätttningen i detta 
+fall så som för utsläppen för att göra betygen så rättvisa som
+möjligt.
+<br/>
+<br/>
+
+PVH strävar efter att minimera avfallsgenereringen och optimera 
+materialanvändningen under hela sin verksamhet. PVH implementerar 
+initiativ för att minska förpackningsavfall, öka återvinning och 
+återanvändning av material och säkerställa korrekt omhändertagande 
+av farligt avfall. De arbetar för att eliminera skadliga kemikalier 
+från sina produktionsprocesser och främja hållbara metoder i hela sin leveranskedja.
+Av dessa anledningar så får fötretaget ett lite högre betyg inom avfall.
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Djurvänlighet </h3>
+<br/>
+
+Hur djurvänliga företagen är har vi baserat på hur många djurvänliga 
+etiketter de använder, samt hur mycket information det finns om djurrättigheter
+i överlag hos företaget. 
+<br/>
+<br/>
+
+PVHs djurvälfärd är svår att finna information om, men de har fastställt riktlinjer för ansvarsfull 
+inköp av material från djur. De syftar till att säkerställa att djurskyddsstandarder 
+uppfylls av deras leverantörer, särskilt för material som ull och läder. PVH 
+strävar efter att arbeta med partners som prioriterar etisk behandling och ansvarsfull 
+praxis. Av dessa anledningar så har de fått ett lite lägre betyg, då det finns fler åtgärder att ta.

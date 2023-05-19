@@ -1,0 +1,58 @@
+<h3 class="detail_h3">Utsläpp </h3>
+<br/>
+
+Betyget är baserat på företagets CO2 utsläpp det år som
+senast redovisades i deras hållbarhets rapport.
+För att företagen ska vara någorlundda jämna i betygsättningen
+har vi tagit antalet ton (i utsläpp) delat med företagets 
+omsättning. 
+<br/>
+<br/>
+
+ICA prioriterar energieffektivitetsåtgärder i hela sin verksamhet, inklusive butiker, 
+lager och transporter. Det kan handla om att använda energieffektiv 
+teknik, optimera belysningssystem och implementera hållbara kyl- och kylsystem. 
+ICA investerar också i förnybara energikällor för att minska sitt beroende av fossila 
+bränslen och minska sitt koldioxidavtryck. Av dessa anledningar så har inca fått ett lite högre betyg.
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Avfall </h3>
+<br/>
+
+Betyget för avfall är baserat på antalet ton (i avfall)
+delat med företagets omsättning. Vi delar med omsätttningen i detta 
+fall så som för utsläppen för att göra betygen så rättvisa som
+möjligt.
+<br/>
+<br/>
+
+ICA strävar efter att minimera avfallsgenerering och främja 
+återvinning under hela sin verksamhet. ICA kan implementera strategier 
+för att minska matsvinnet genom effektiv lagerhantering, donationsprogram 
+och samarbete med lokala livsmedelsbanker. De arbetar också med att 
+minimera förpackningsavfall och utforska hållbara förpackningsalternativ i samarbete med leverantörer.
+Detta med antalet ton avfall de har ger att ICA får ett lite högre betyg.
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Djurvänlighet </h3>
+<br/>
+
+Hur djurvänliga företagen är har vi baserat på hur många djurvänliga 
+etiketter de använder, samt hur mycket information det finns om djurrättigheter
+i överlag hos företaget. 
+<br/>
+<br/>
+
+ICA inser vikten av djurskydd och strävar efter att säkerställa ansvarsfulla 
+inköpsmetoder för animaliska produkter. De har riktlinjer och standarder på 
+plats för att främja djurens välbefinnande i deras leveranskedja, särskilt för 
+produkter som kött, ägg och mejeriprodukter. ICA kan samarbeta med leverantörer 
+som följer djurskyddsstandarder och arbetar med certifieringsprogram för att säkerställa efterlevnad.
+Då det är svårt att hitta information om just vad dessa regler är till exempel, eller allmänt mer 
+om deras djurvälfärd, så har vi gett ICA ett lite lägre betyg inom djurvänlighet.
