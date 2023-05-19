@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detailed view of `${activeCompany.name}`</title>
     <script type="module" src="CompanyDetailScript.js"></script>
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="detail_page.css">
     <style>
@@ -36,13 +37,22 @@
                 <button id="searchbtn" class="srchbtn">Sök</button>
             </div>
         </div>
+
+        
         <div class="ecoScores">
-            <img class="score_img" src="images/emmision.png">
-            <p class="emmisionScore" id="emmisionScore"></p>
-            <img class="score_img" src="images/animal.png">
-            <p class="animalScore" id="animalScore"></p>
-            <img class="score_img" src="images/plastic.png">
-            <p class="plasticScore" id="plasticScore"></p>
+            <div class="score">
+                <img class="score_img" src="images/emmision.png">
+                <p class="emmisionScore" id="emmisionScore"></p>
+            </div>
+            <div class="score">
+                <img class="score_img" src="images/animal.png">
+                <p class="animalScore" id="animalScore"></p>
+            </div>
+            <div class="score">
+                <img class="score_img" src="images/plastic.png">
+                <p class="plasticScore" id="plasticScore"></p>
+            </div>
+
         </div>
         <div class="ecoScore_Summary">
             <p class="scoreText" id="scoreText"></p>

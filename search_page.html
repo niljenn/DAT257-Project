@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoScore</title>
     <script type="module" src="boxSearch.js" async></script>
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="boxStyle.css">
     <link rel="stylesheet" href="category.css">
@@ -36,11 +37,10 @@
 
         <div class="chosen_category">
             <p id="search_hits" class="category_rubric"></p>
-        </div>
-        
-        <div id="srchbar" class="srchbar">
-            <input id="searchbar" class="srch" type="search" name="" placeholder="Sök företag eller kategori">
-            <button id="searchbtn" class="srchbtn">Sök</button>
+            <div id="srchbar" class="srchbarcategory">
+                <input id="searchbar" class="srch" type="search" name="" placeholder="Sök företag eller kategori">
+                <button id="searchbtn" class="srchbtn">Sök</button>
+            </div>
         </div>
         
 
@@ -54,7 +54,7 @@
         </div>
 
         <div class="panel">
-            <div id="boxesContainer" class="boxes-container">
+            <div id="boxesContainer" class="boxes-container_srch">
                 <div id="search-results"></div>
 
                 <!-- Boxes will be generated here dynamically -->

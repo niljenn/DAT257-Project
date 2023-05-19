@@ -2,6 +2,7 @@
     /*min-width: 1680px; /*Makes it so middle part deos not glide*/
     height:200px;
     align-self: center;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 15px;
     background: linear-gradient(
@@ -18,14 +19,30 @@
     font-weight: bold;
     font-size: 30px;
     color: rgb(251, 253, 255);
-    padding-top: 70px;
+    padding-top: 50px;
+    padding-bottom: 5px;
     text-align: center;
+}
+
+.srchbarcategory{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 1;
+    width: 500px;
+    height: 40px;
+    /*border: 2px solid saddlebrown;*/
+}
+
+.ecoLabels{
+    float: left;
 }
 
 .sortDropdown {
     display: inline-block;
     position: absolute;
-    left: 50%;
+    margin-bottom: 30px;
+    left: 60%;
     transform: translateX(-50%);
     z-index: 999;
 }
@@ -35,6 +52,7 @@
     float: left;
     margin-top: 3px;
     margin-right: 8px;
+    font-size: 14px;
 }
 
 .SortBtn{
@@ -71,11 +89,24 @@
 .sortDropdown:hover .sort-content{
     display: block;
     background: rgb(249, 250, 247);
-    border-radius: 2px;
     position: absolute;
-    margin-left: 92px;
+    margin-left: 100px;
+}
+
+.boxes-container{
+    position: relative;
+    margin-top: 40px;
+    right: 9%;
+
+}
+
+.boxes-container_srch{
+    position: absolute;
+    margin-top: 40px;
+    left: 32%;
 }
 
 .panel {
     overflow-y: auto; 
+    width: 100%;
   }

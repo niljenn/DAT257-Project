@@ -189,7 +189,7 @@ function renderBoxes(){
   // Get reference to chosen category element
   const chosenCategoryElement = document.querySelector('.chosen_category');
   // Update chosen category text
-  chosenCategoryElement.querySelector('.category_rubric').textContent = `Resultat för ${activeCategory.getCategory()}`;
+  chosenCategoryElement.querySelector('.category_rubric').textContent = `Resultat för "${activeCategory.getCategory()}"`;
 
 
   for (var i = 0; i < boxesData.length; i++) {

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoScore</title>
     <script type="module" src="boxScript.js" async></script>
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="boxStyle.css">
     <link rel="stylesheet" href="category.css">
@@ -31,15 +32,14 @@
         </header>
 
     </div>
-
-    <div id="srchbar" class="srchbar">
-        <input id="searchbar" class="srch" type="search" name="" placeholder="Sök företag eller kategori">
-        <button id="searchbtn" class="srchbtn">Sök</button>
-    </div>
     
 
     <div class="chosen_category">
         <p class="category_rubric" > Resultat för `${activeCategory.getCategory()}`</p>
+        <div id="srchbar" class="srchbarcategory">
+            <input id="searchbar" class="srch" type="search" name="" placeholder="Sök företag eller kategori">
+            <button id="searchbtn" class="srchbtn">Sök</button>
+        </div>
     </div>
 
 
@@ -47,40 +47,38 @@
 
     <div class="main"> <!--Main Background element-->
 
-        <div class="sortDropdown">
-            <p class="sortText">Sortera efter:</p>
-            <button id="sortButton" class="SortBtn">Bäst till sämst</button>
-            <div class="sort-content">
-                <button id="best-to-worst-button">Bäst till sämst</button>
-                <button id="worst-to-best-button">Sämst till bäst</button>
-            </div>
-        </div>
-
-
-        <fieldset class="ecoLabels">
-            <legend class="filter"> Bäst av :</legend>
-            <div>
-                <input type="checkbox" id="emission" name="emission">
-                <label for="emission">CO2 utsläpp</label>
-            </div>
-
-            <div>
-                <input type="checkbox" id="waste" name="waste">
-                <label for="waste">Avfall</label>
-            </div>
-
-            <div>
-                <input type="checkbox" id="animal" name="animal">
-                <label for="animal">Djurvänlighet</label>
-            </div>
-        </fieldset> 
-        
-
         <div class="panel">
+            <fieldset class="ecoLabels">
+                <legend class="filter"> Bäst av :</legend>
+                <div>
+                    <input type="checkbox" id="emission" name="emission">
+                    <label for="emission">CO2 utsläpp</label>
+                </div>
+    
+                <div>
+                    <input type="checkbox" id="waste" name="waste">
+                    <label for="waste">Avfall</label>
+                </div>
+    
+                <div>
+                    <input type="checkbox" id="animal" name="animal">
+                    <label for="animal">Djurvänlighet</label>
+                </div>
+            </fieldset> 
+
+            <div class="sortDropdown">
+                <p class="sortText">Sortera efter:</p>
+                <button id="sortButton" class="SortBtn">Bäst till sämst</button>
+                <div class="sort-content">
+                    <button id="best-to-worst-button">Bäst till sämst</button>
+                    <button id="worst-to-best-button">Sämst till bäst</button>
+                </div>
+            </div>
+
             <div id="boxesContainer" class="boxes-container">
                 <!-- Boxes will be generated here dynamically -->
               </div>
-          </div>
+        </div>
           
 
         <div class="button"></div> <!--Button element, button should be put here-->
