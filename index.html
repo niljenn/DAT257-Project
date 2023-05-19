@@ -14,7 +14,7 @@
 <body>
 
     <header>
-        <script type="text/javascript" src="./header.js"></script>
+        
     </header>
 
     <div class="main"> <!--Main Background element-->
@@ -34,15 +34,16 @@
         </div>
 
         <div class="companybtn"> <!--Add link to page in href-->
-            <a href="category_page.html"> <button class="cbtn">Kläder</button></a>
-            <a href="category_page.html"> <button class="cbtn">Mat</button></a>
-            <a href="category_page.html"> <button class="cbtn">Alla företag</button></a>
+            <a href="#"> <button class="cbtn" id="clothes">Kläder</button></a>
+            <a href="#"> <button class="cbtn" id="food">Mat</button></a>
+            <a href="#"> <button class="cbtn" id="all">Alla företag</button></a>
         </div>
         
         
     </div>
     <script type="module" src="search.js"></script>
-    <script>
+    <script type="module" src="./header.js" defer></script>
+    <script defer>
         document.getElementById("searchbtn").addEventListener("click", function() {
             var query = document.getElementById("searchbar").value;
             if (query.trim() !== "") {

@@ -1,10 +1,9 @@
 // Import company data
 import { companies } from './companies.js';
 
+
 // Array of box data
-var boxesData = [];
-var foodCompaniesData = [];
-var clothCompaniesData = [];
+const allboxesData = [];
 for (var i = 0; i < companies.length; i++) {
   var company = companies[i];
   var boxData = {
@@ -15,16 +14,15 @@ for (var i = 0; i < companies.length; i++) {
     rating: company.getOverallScore(),
     maxRating: 10,
     imageFile: company.imageFile,
-    detailPageUrl: `./detail_co_page.html?id=${company.id}`
+    detailPageUrl: `./detail_co_page.html?id=${company.id}`,
+    category: company.category
   };
-  boxesData.push(boxData);
-  if (company.category === "food") {
-    foodCompaniesData.push(boxData);
-  }
-  if (company.category === "cloth") {
-    clothCompaniesData.push(boxData);
-  }
+  allboxesData.push(boxData);
 }
+let boxesData = allboxesData;
+
+const foodCompaniesData = boxesData.filter(box => box.category === "food")
+const clothCompaniesData = boxesData.filter(box => box.category === "cloth")
 
 
 // Create Category class
@@ -51,18 +49,43 @@ var clothCategory = new Category("Klädföretag", clothCompaniesData);
 // Set active category to foodCategory initially
 var activeCategory = AllCompanies;
 
+export function setCategory() {
+  const storageCategory = localStorage.getItem("category_filter")
+  if (storageCategory === "food"){
+    activeCategory = foodCategory;
+    boxesData = foodCompaniesData;
+  }
+  if(storageCategory === "clothes"){
+    activeCategory = clothCategory;
+    boxesData = clothCompaniesData;
+  }
+  if(storageCategory === "all"){
+    activeCategory = AllCompanies;
+    boxesData = allboxesData;
+  }
+  sortBoxesData();
+  renderBoxes();
+}
+
+function sortBoxesData() {
+  if (buttonPressed === "best-to-worst-button") {
+    boxesData.sort((a, b) => b.rating - a.rating);
+  } else if (buttonPressed === "worst-to-best-button") {
+    boxesData.sort((a, b) => a.rating - b.rating);
+  }
+}
+
+
+if(window.location.pathname === "/category_page.html"){
 // Get references to the "best to worst" and "worst to best" buttons
-const sortButton = document.getElementById("all-companies-btn");
+const sortButton = document.getElementById("sortButton");
 var bestToWorstButton = document.getElementById("best-to-worst-button");
 var worstToBestButton = document.getElementById("worst-to-best-button");
 // Initialize buttonPressed to "best-to-worst"
 var buttonPressed = "best-to-worst-button";
-var foodCompaniesButton = document.getElementById("food");
-var clothCompaniesButton = document.getElementById("clothes");
+
 
 // Get the buttons by their IDs
-const kladerBtn = document.getElementById("clothing-btn");
-const matBtn = document.getElementById("food-btn");
 document.getElementById("searchbtn").addEventListener("click", function() {
   var query = document.getElementById("searchbar").value;
   if (query.trim() !== "") {
@@ -71,13 +94,7 @@ document.getElementById("searchbtn").addEventListener("click", function() {
 });
 
 // Function to sort the boxesData array based on the current buttonPressed value
-function sortBoxesData() {
-  if (buttonPressed === "best-to-worst-button") {
-    boxesData.sort((a, b) => b.rating - a.rating);
-  } else if (buttonPressed === "worst-to-best-button") {
-    boxesData.sort((a, b) => a.rating - b.rating);
-  }
-}
+
 // Add event listeners to the buttons
 
 bestToWorstButton.addEventListener("click", function() {
@@ -86,26 +103,14 @@ bestToWorstButton.addEventListener("click", function() {
   renderBoxes();
   sortButton.textContent = 'Bäst till sämst';
 });
+
+
+
 worstToBestButton.addEventListener("click", function() {
   buttonPressed = "worst-to-best-button";
   sortBoxesData();
   renderBoxes();
   sortButton.textContent = 'Sämst till bäst';
-});
-
-foodCompaniesButton.addEventListener("click", function() {
-  activeCategory = foodCategory;
-  boxesData = foodCompaniesData;
-  sortBoxesData();
-  renderBoxes();
-});
-
-
-clothCompaniesButton.addEventListener("click", function() {
-  activeCategory = clothCategory;
-  boxesData = clothCompaniesData;
-  sortBoxesData();
-  renderBoxes();
 });
 
 //Sort by functionality (eco labels)
@@ -152,23 +157,22 @@ animalCheck.addEventListener('change', (event) => {
   }
 });
 
+
 function sortLabels () {
   if(emissionCheck.checked){
     boxesData.sort((a, b) =>  b.emission - a.emission);
-    console.log(boxesData);
   }
 
   else if(wasteCheck.checked){
     boxesData.sort((a, b) => b.waste - a.waste);
-    console.log(boxesData);
   }
 
   else if(animalCheck.checked){
     boxesData.sort((a, b) => b.animalwel - a.animalwel);
-    console.log(boxesData);
   }
 
 }
+
 //End of sort by functionality (eco labels)
 
 
@@ -180,11 +184,15 @@ sortBoxesData()
 renderBoxes();
 
 
+setCategory();
+}
+
 function renderBoxes(){
   // Container which holds all boxes
   var boxesContainer = document.getElementById("boxesContainer");
   // Clear the boxesContainer
   boxesContainer.innerHTML = "";
+  
 
   // Get reference to chosen category element
   const chosenCategoryElement = document.querySelector('.chosen_category');
