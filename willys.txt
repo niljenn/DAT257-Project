@@ -1,0 +1,58 @@
+<h3 class="detail_h3">Utsläpp </h3>
+<br/>
+
+Betyget är baserat på företagets CO2 utsläpp det år som
+senast redovisades i deras hållbarhets rapport.
+För att företagen ska vara någorlundda jämna i betygsättningen
+har vi tagit antalet ton (i utsläpp) delat med företagets 
+omsättning. 
+<br/>
+<br/>
+
+Willys  prioriterar energieffektivitetsåtgärder 
+i sina butiker, lager och transporter. Det kan handla om att använda 
+energieffektiva belysningssystem, optimera temperaturkontroll och implementera 
+energihanteringsprogram. Willys har också utforskat förnybara energikällor för 
+att ytterligare minska deras koldioxidavtryck. Då de inte implementerar så många metoder
+så har Willys fått ett lägre betyg inom utsläpp.
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Avfall </h3>
+<br/>
+
+Betyget för avfall är baserat på antalet ton (i avfall)
+delat med företagets omsättning. Vi delar med omsätttningen i detta 
+fall så som för utsläppen för att göra betygen så rättvisa som
+möjligt.
+<br/>
+<br/>
+
+Willys strävar efter att minimera avfallsgenerering och främja återvinning i 
+sina butiker och distributionscenter. Willys har system på plats 
+för att säkerställa korrekt avfallssegregering och bortskaffande, och de uppmuntrar
+kunder aktivt att delta i återvinningsprogram. Dessutom arbetar de 
+med leverantörer för att minska förpackningsavfall och utforska hållbara förpackningsalternativ.
+Dessaa åtgärder ger däremot Willys fortfarande ett dåligt tal när man kollar på antalet ton i avfall.
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Djurvänlighet </h3>
+<br/>
+
+Hur djurvänliga företagen är har vi baserat på hur många djurvänliga 
+etiketter de använder, samt hur mycket information det finns om djurrättigheter
+i överlag hos företaget. 
+<br/>
+<br/>
+
+Det finns lite information om Willys djurvälfärdd, sen kan även specifik information om Willys djurskyddsinitiativ kan variera, 
+så prioriterar de ansvarsfulla inköpsmetoder för animaliska 
+produkter. Detta kan innefatta att samarbeta med leverantörer som följer djurskyddsstandarder 
+och riktlinjer. Willys arbetar också ibland med certifieringsprogram eller organisationer som 
+fokuserar på djurskydd för att säkerställa djurens välbefinnande i deras leveranskedja. Detta ger däremot inte så mycket, 
+och det är lite initiativ från de själva så de får ett lägre betyg inom djurvänlighet.

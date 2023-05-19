@@ -1,0 +1,58 @@
+<h3 class="detail_h3">Utsläpp </h3>
+<br/>
+
+Betyget är baserat på företagets CO2 utsläpp det år som
+senast redovisades i deras hållbarhets rapport.
+För att företagen ska vara någorlundda jämna i betygsättningen
+har vi tagit antalet ton (i utsläpp) delat med företagets 
+omsättning. 
+<br/>
+<br/>
+
+Uniqlo har åtagit sig att förbättra energieffektiviteten, alltså att gå över till förnybara 
+energikällor och utforska innovativ teknik för att minimera deras miljöpåverkan. 
+De samarbetar också med leverantörer för att främja hållbara produktionsmetoder och minska utsläppen i hela sin leverantörskedja.
+Av dessa nämnda anledningar och deras rapporterade utsläpp i ton jämfört med omsättningen så har det fått ett lite 
+bättre betyg.
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Avfall </h3>
+<br/>
+
+Betyget för avfall är baserat på antalet ton (i avfall)
+delat med företagets omsättning. Vi delar med omsätttningen i detta 
+fall så som för utsläppen för att göra betygen så rättvisa som
+möjligt.
+<br/>
+<br/>
+
+Uniqlo tar olika initiativ för att minimera deras avfall och maximera resurseffektiviteten. 
+De uppmuntrar kunder att återvinna sina oönskade plagg genom deras återvinningsprogram i butik och
+insamlade föremål sorteras och bearbetas för återvinning eller återanvändning.
+Uniqlo fokuserar också på att minska förpackningsavfallet genom att optimera förpackningsmaterial och uppmuntra ansvarsfull kassering.
+Trots dessa initiativ så ahr Uniqlo ett stort antal avfall i ton jämfört med vad de omsättter och får därför ett
+lägre betyg.
+
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Djurvänlighet </h3>
+<br/>
+
+Hur djurvänliga företagen är har vi baserat på hur många djurvänliga 
+etiketter de använder, samt hur mycket information det finns om djurrättigheter
+i överlag hos företaget. 
+<br/>
+<br/>
+
+Det finns inte så mycket information om hur Uniqlo tar hänsyn till djuren. Det som vi 
+vet är att de har fastställt riktlinjer för att säkerställa ansvarsfulla inköp av material såsom ull och dun.
+När det gäller ull så förbjuder de metoder som mulesing. De tar även hänsyn till dun och hur de framställs, 
+dunfjädrarna kommer från leverantörer som följer deras strikta djurskyddsriktlinjer. Av den anledning att det var svårt
+att hitta informationen och att det var lite information som lätt gick att ta del av så får Uniqlo ett lägre betyg
+inom djurvänlighet.

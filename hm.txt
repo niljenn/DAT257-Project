@@ -1,0 +1,61 @@
+<h3 class="detail_h3">Utsläpp </h3>
+<br/>
+
+Betyget är baserat på företagets CO2 utsläpp det år som
+senast redovisades i deras hållbarhets rapport.
+För att företagen ska vara någorlundda jämna i betygsättningen
+har vi tagit antalet ton (i utsläpp) delat med företagets 
+omsättning. 
+<br/>
+<br/>
+
+H&M har satt upp vetenskapsbaserade mål för att minska utsläppen av växthusgaser. 
+Detta innebär att deras utsläppsminskningsmål överensstämmer med den nivå av koldioxidutsläpp 
+som krävs för att hålla den globala uppvärmningen väl under 2 grader Celsius.
+De tar åtgärder för att minska energiförbrukningen i butiker, 
+distributionscentraler och andra anläggningar. Sen investerar de i energieffektiv teknik och försöker
+främjar energibesparande metoder. De implementerar nödvändiga metoder, men deras utsläpp i ton är
+fortfarande så pass stort att de fått ett lägre betyg.
+
+
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Avfall </h3>
+<br/>
+
+Betyget för avfall är baserat på antalet ton (i avfall)
+delat med företagets omsättning. Vi delar med omsätttningen i detta 
+fall så som för utsläppen för att göra betygen så rättvisa som
+möjligt.
+<br/>
+<br/>
+
+H&M har genomfört flera initiativ för att minska svinnet. De uppmuntrar kunder att återvinna 
+sina oönskade plagg genom deras insamlingsprogram för plagg som finns i butik. Dessa insamlade 
+föremål återanvänds sedan, återvinns till nya textilier eller återanvänds för andra ändamål. 
+H&M arbetar också för att eliminera farliga kemikalier från sina produktionsprocesser för att minimera 
+miljöpåverkan. På grund av dessa anledningar, samt deras avfall i ton i förhållande till omsättningen så har H&M 
+fått ett bättre betyg i avfall.
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Djurskydd </h3>
+<br/>
+
+Hur djurvänliga företagen är har vi baserat på hur många djurvänliga 
+etiketter de använder, samt hur mycket information det finns om djurrättigheter
+i överlag hos företaget. 
+<br/>
+<br/>
+
+H&M har vidtagit åtgärder för att förbättra djurvälfärden inom sin leverantörskedja. 
+De har ett engagemang för djurens välbefinnande, och deras djurskyddspolicy syftar till att 
+säkerställa att djur behandlas med respekt och omsorg. H&M stödjer användningen av 
+animaliskt material från ansvarsfulla källor och sätter riktlinjer för etisk behandling av djur. 
+De samarbetar aktivt med sina leverantörer för att säkerställa efterlevnad av dessa standarder.
+Av denna anledningen så får H&M ett lite högre betyg.

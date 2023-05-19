@@ -1,0 +1,60 @@
+<h3 class="detail_h3">Utsläpp </h3>
+<br/>
+
+Betyget är baserat på företagets CO2 utsläpp det år som
+senast redovisades i deras hållbarhets rapport.
+För att företagen ska vara någorlundda jämna i betygsättningen
+har vi tagit antalet ton (i utsläpp) delat med företagets 
+omsättning. 
+<br/>
+<br/>
+
+Coop strävar efter att förbättra energieffektiviteten i hela sin verksamhet, inklusive 
+butiker, lager och transporter. Coop investerar aktivt i förnybara 
+energikällor, som solkraft och geotermisk energi, för att minska beroendet 
+av fossila bränslen. De samarbetar också med leverantörer för att 
+implementera hållbara metoder och minska utsläppen genom hela försörjningskedjan.
+Trots detta så har talet vi kalkulerat varit någorlunda högt men med deras metoder så har de fått 
+ett medel betyg.
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Avfall </h3>
+<br/>
+
+Betyget för avfall är baserat på antalet ton (i avfall)
+delat med företagets omsättning. Vi delar med omsätttningen i detta 
+fall så som för utsläppen för att göra betygen så rättvisa som
+möjligt.
+<br/>
+<br/>
+
+Coop implementerar strategier för att minimera avfallsgenerering, främja 
+återvinning och återanvändning och optimera materialanvändningen. De 
+uppmuntrar även kunderna att göra hållbara val, som att ta med återanvändbara 
+påsar och delta i återvinningsprogram. De arbetar med leverantörer för att minska 
+förpackningsavfall och utforska innovativa lösningar för avfallsminskning. Dessa metoder är däremot inte tillräckligt för
+att sänka deras antal ton i avfall och av den anledningen har de fått ett lågt betyg.
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Djurvänlighet </h3>
+<br/>
+
+Hur djurvänliga företagen är har vi baserat på hur många djurvänliga 
+etiketter de använder, samt hur mycket information det finns om djurrättigheter
+i överlag hos företaget. 
+<br/>
+<br/>
+
+Coop inser vikten av djurskydd och arbetar nära leverantörer för att 
+säkerställa ansvarsfulla inköpsmetoder. De har riktlinjer och standarder 
+på plats för att främja djurens välbefinnande i deras leveranskedja, 
+särskilt för produkter som kött, ägg och mejeriprodukter. Coop kan samarbeta 
+med djurskyddsorganisationer och genomföra revisions- och certifieringsprogram 
+för att säkerställa efterlevnad av djurskyddsstandarder. Då Coop jobbar mycket med djurensvälfärd så 
+har de fått ett högre betyg.
