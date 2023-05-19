@@ -79,10 +79,10 @@
 .ecoScore_Summary {
     position: absolute;
     width: 90%;
-    height: 200px;
     background:rgb(255, 255, 255);
-    margin-top: 250px;
+    margin-top: 500px;
     margin-bottom: 100px;
+    padding: 25px;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
@@ -90,8 +90,6 @@
 }
 .scoreText{
     font-size: 18px;
-    padding-left: 20px;
-    padding-top: 20px;
     width: 90%;
     color: rgb(77, 77, 77);
 }
