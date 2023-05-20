@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 .chosen_category { 
     /*min-width: 1680px; /*Makes it so middle part deos not glide*/
     height:200px;
@@ -16,12 +18,21 @@
 }
 
 .category_rubric {
+
+
+    position: absolute;
     font-weight: bold;
+    top: 140px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 600px;
+    height: 25px;
     font-size: 30px;
-    color: rgb(251, 253, 255);
-    padding-top: 50px;
-    padding-bottom: 5px;
+    position: absolute;
     text-align: center;
+    color: aliceblue;
+    
 }
 
 .srchbarcategory{
@@ -29,6 +40,7 @@
     left: 50%;
     transform: translate(-50%, 50%);
     z-index: 1;
+    margin-top: 90px;
     width: 500px;
     height: 40px;
     /*border: 2px solid saddlebrown;*/
@@ -39,12 +51,8 @@
 }
 
 .sortDropdown {
-    display: inline-block;
-    position: absolute;
-    margin-bottom: 30px;
-    left: 60%;
-    transform: translateX(-50%);
-    z-index: 999;
+    float: right;
+    margin-right: 7%;
 }
 
 
@@ -66,6 +74,7 @@
     font-family: 'Times New Roman';
     color: black;
 }
+
 
 .sort-content{
     display: none;
@@ -94,19 +103,26 @@
 }
 
 .boxes-container{
-    position: relative;
-    margin-top: 40px;
-    right: 9%;
-
+    padding-top: 5px;
+    transition: 0.3s;
 }
 
 .boxes-container_srch{
-    position: absolute;
-    margin-top: 40px;
-    left: 32%;
+    padding-top: 40px;
 }
 
 .panel {
     overflow-y: auto; 
     width: 100%;
   }
+
+@media only screen and (max-width: 1050px) {
+    body {
+       margin: 0;
+       padding: 0;
+    }
+    .boxes-container {
+        padding-top: 40px;
+    }
+
+ }
