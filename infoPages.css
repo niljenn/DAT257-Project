@@ -161,7 +161,7 @@ p3{
 
 
 .coolheader{
-    position: relative;
+    margin-top: 10px;
     text-align: center;
     background: linear-gradient(
         60deg,

@@ -20,9 +20,7 @@ for (var i = 0; i < companies.length; i++) {
     imageFile: company.imageFile,
     detailPageUrl: `./detail_co_page.html?id=${company.id}`
   };
-  console.log(boxData);
   boxesData.push(boxData);
-  console.log(boxData);
 }
 function sortBoxesData(query = '') {
   if (query) {
@@ -48,7 +46,6 @@ function sortBoxesData(query = '') {
 
   const urlParams = new URLSearchParams(window.location.search);
   const query = urlParams.get('query');
-  console.log(query); 
 
 // Get references to the "best to worst" and "worst to best" buttons
 const sortButton = document.getElementById('sortButton');
@@ -107,7 +104,6 @@ function renderBoxes() {
     var ratingBar = document.createElement("div");
     ratingBar.className = "rating-bar";
     var ratingBarWidth = (boxData.rating / boxData.maxRating) * 100;
-    console.log(`maxRating: ${boxData.maxRating}, rating: ${boxData.rating}`);
     ratingBar.style.width = ratingBarWidth + '%';
 
     ratingBarContainer.appendChild(ratingBar);
