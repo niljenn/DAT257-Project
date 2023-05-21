@@ -248,6 +248,7 @@ p3{
    position:absolute;
    width: 65px;
    height: 65px;
+   margin-top: 45px;
    z-index: 99999;
    top: 57%;
    left: 48.8%;
