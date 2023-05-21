@@ -60,6 +60,7 @@ body {
 .dropdown{
     display: inline-block;
     position: relative;
+    z-index: 9;
 }
 
 .dropbtn{
