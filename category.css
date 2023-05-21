@@ -47,14 +47,44 @@
 }
 
 .ecoLabels{
+    margin-top: -40px;
     float: left;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 20px;
+    transition: 0.3s;
 }
+
+.filter{
+    padding-top: 57px;
+    transition: 0.3s;
+}
+
+.altText{
+    display: none;
+    position: absolute;
+    font-size: 14px;
+    margin-top: -47px;
+    padding-left: 60px;
+    transition: 0.5s;
+}
+
+.check{
+    padding-bottom: 20px;
+    transition: 0.3s;
+}
+
+.checkText{
+    padding-left: 7px;
+}
+
+
+
 
 .sortDropdown {
     float: right;
     margin-right: 7%;
 }
-
 
 .sortText{
     float: left;
@@ -103,7 +133,6 @@
 }
 
 .boxes-container{
-    padding-top: 5px;
     transition: 0.3s;
 }
 
@@ -123,6 +152,22 @@
     }
     .boxes-container {
         padding-top: 40px;
+    }
+    .ecoLabels{
+        background-color: rgb(237, 239, 234);
+    }
+    .check{
+        display: none;
+    }
+    .topCheck{
+        display: none;
+    }
+    .filter{
+        padding-top: 42px;
+        font-size: 14px;    
+    }
+    .altText{
+        display: block;
     }
 
  }

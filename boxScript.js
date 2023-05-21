@@ -117,6 +117,7 @@ worstToBestButton.addEventListener("click", function() {
 const emissionCheck = document.querySelector('#emission');
 const wasteCheck = document.querySelector('#waste');
 const animalCheck = document.querySelector('#animal');
+const altText = document.getElementById('altText');
 
 emissionCheck.addEventListener('change', (event) => {
   const isChecked = event.target.checked;
@@ -161,14 +162,17 @@ animalCheck.addEventListener('change', (event) => {
 function sortLabels () {
   if(emissionCheck.checked){
     boxesData.sort((a, b) =>  b.emission - a.emission);
+    altText.innerText = 'CO2-utsläpp';
   }
 
   else if(wasteCheck.checked){
     boxesData.sort((a, b) => b.waste - a.waste);
+    altText.innerText = 'Avfall';
   }
 
   else if(animalCheck.checked){
     boxesData.sort((a, b) => b.animalwel - a.animalwel);
+    altText.innerText = 'Djurvänlighet';
   }
 
 }
