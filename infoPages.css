@@ -121,6 +121,7 @@ p3{
     padding-left: 30px;
 }
 
+/*
 .textbox12 {
   display:flex;
   align-items:center;
@@ -129,6 +130,20 @@ p3{
   border-radius: 25px;
   margin-right: 110px;
   margin-left: 110px;
+}
+*/
+
+.textbox12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  margin-right: 110px;
+  margin-left: 110px;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(63, 152, 107), rgb(120, 242, 136));
+  border-image-slice: 1;
 }
 
 
