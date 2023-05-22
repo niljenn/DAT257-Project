@@ -1,0 +1,52 @@
+<h3 class="detail_h3">Utsläpp </h3>
+<br/>
+
+Betyget är baserat på företagets CO2 utsläpp det år som
+senast redovisades i deras hållbarhets rapport.
+För att företagen ska vara någorlundda jämna i betygsättningen
+har vi tagit antalet ton (i utsläpp) delat med företagets 
+omsättning. 
+<br/>
+<br/>
+
+UA:s rapport betonar leverantörernas inverkan på produkters miljöavtryck och betydelsen av att anta ett cirkulärt tillverkningssätt.
+Den framhäver två nyckelfaktorer för att minska miljöpåverkan: att producera högkvalitativa och mer hållbara produkter samt att designa produkter med återvinningsbara material.
+Rapporten nämner också UA:s samarbete med innovatörer för att utveckla mer hållbara material och öka användningen av återvunnen polyester i sina produkter.
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Avfall </h3>
+<br/>
+
+Betyget för avfall är baserat på antalet ton (i avfall)
+delat med företagets omsättning. Vi delar med omsätttningen i detta 
+fall så som för utsläppen för att göra betygen så rättvisa som
+möjligt.
+<br/>
+<br/>
+
+Under Armour vidtar åtgärder för att minska sin miljöpåverkan genom att fokusera på två prioriteringar: att minska produktionsavfall och minimera förpackningspåverkan.
+UA använder digital transformation för att minska behovet av fysiska produktprover och prototyper, vilket minskar materialanvändningen, minimerar avfallet, minskar vattenförbrukningen och minskar bränsle- och utsläppseffekter relaterade till transport.
+Dessutom använder UA digitala material för att simulera fibrer, färger och tyger, vilket minskar avfallet, minimerar vattenanvändningen och ökar effektiviteten i försörjningskedjan.
+UA utforskar också mer hållbara material för sina förpackningar och arbetar för att optimera lagerhållningsenheterna för att minska effekterna av frakt.
+Slutligen strävar UA efter att göra butiksmaterial och detaljhandelsförpackningar mer hållbara.
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Djurvänlighet </h3>
+<br/>
+
+Hur djurvänliga företagen är har vi baserat på hur många djurvänliga 
+etiketter de använder, samt hur mycket information det finns om djurrättigheter
+i överlag hos företaget. 
+<br/>
+<br/>
+
+Det finns inga bevis för att Under Armour har en policy för att minimera djurens lidande.
+De använder läder och ull. De använder dun som är certifierat enligt Responsible Down Standard.
+De använder inte päls, exotisk djurhud, exotiska djurhår eller angora.
+De spårar vissa animaliska produkter till den första steget i produktionen.

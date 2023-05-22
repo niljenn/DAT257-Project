@@ -54,7 +54,7 @@ p2{
 }
 
 p3{
-    font-family: "Lato",sans-serif;
+    font-family: "Comic Sans MS",sans-serif;
     letter-spacing: 1px;
     font-size: 16px;
 }
@@ -102,10 +102,10 @@ p3{
     align-items:center;
     text-align:justify;
 
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 130px;
-    padding-left: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 
@@ -121,6 +121,16 @@ p3{
     padding-left: 30px;
 }
 
+.textbox12 {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  border: 3px solid rgb(63, 152, 107);
+  border-radius: 25px;
+  margin-right: 110px;
+  margin-left: 110px;
+}
 
 
 
@@ -250,6 +260,7 @@ p3{
    height: 65px;
    margin-top: 45px;
    z-index: 99999;
-   top: 57%;
+   top: 51%;
    left: 48.8%;
 }
+

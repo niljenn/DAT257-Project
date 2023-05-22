@@ -1,0 +1,53 @@
+<h3 class="detail_h3">Utsläpp </h3>
+<br/>
+
+Betyget är baserat på företagets CO2 utsläpp det år som
+senast redovisades i deras hållbarhets rapport.
+För att företagen ska vara någorlundda jämna i betygsättningen
+har vi tagit antalet ton (i utsläpp) delat med företagets 
+omsättning. 
+<br/>
+<br/>
+
+Nikes rapport betonar vikten av att minska utsläppen av växthusgaser med 50 % och nå nettonoll till 2050 för att skydda framtiden för idrottare och hålla den globala uppvärmningen under 1,5°C.
+Den belyser också behovet av tydliga mål och strategier, och noterar att Nike har satt upp koldioxidmål som täcker olika tidsperioder och omfattningar, inklusive år 2025.
+
+Den nuvarande planen beskriver olika åtgärder som Nike vidtar för att minska sina koldioxidutsläpp, inklusive användning av förnybar el, alternativa bränslen och eliminering av kol.
+Framtidsplanen bygger på dessa åtgärder och inkluderar omvandling till miljömässigt föredragna material, omvandling av fabriker till förnybar energi och arbete inom branschen för att påskynda framstegen.
+
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Avfall </h3>
+<br/>
+
+Betyget för avfall är baserat på antalet ton (i avfall)
+delat med företagets omsättning. Vi delar med omsätttningen i detta 
+fall så som för utsläppen för att göra betygen så rättvisa som
+möjligt.
+<br/>
+<br/>
+
+Nikes rapport diskuterar vikten av att övergå till ett cirkulärt produktionssystem för att minska avfallet och bevara naturresurserna.
+Detta innebär att designa produkter från återvunnet material, optimera tillverkningsprocesserna och hantera material och uttjänta produkter genom cirkulära system.
+Rapporten betonar också behovet av samarbete mellan interna team och externa leverantörer för att uppnå en mer hållbar framtid.
+
+<br/>
+<br/>
+<br/>
+
+<h3 class="detail_h3">Djurvänlighet </h3>
+<br/>
+
+Hur djurvänliga företagen är har vi baserat på hur många djurvänliga 
+etiketter de använder, samt hur mycket information det finns om djurrättigheter
+i överlag hos företaget. 
+<br/>
+<br/>
+
+Nike har en grundläggande policy som omfattar djurens välbefinnande, men tydliga genomförandemekanismer verkar inte vara på plats.
+De verkar använda ull, dun, exotisk djurhud, shearling, exotiskt djurhår och siden. Vissa av deras läderprodukter innehåller återvunnet läder.
+Det verkar som att de inte använder päls eller angora.
+Det finns inga bevis för att de spårar något material från djur till den första produktionssteget.

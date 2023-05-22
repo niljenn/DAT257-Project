@@ -130,3 +130,13 @@ body {
     .why { display: none; }
     .dropdown { display: none; }
   }
+
+
+.diagonalLine{
+  border-bottom: 3px solid rgb(63, 152, 107);
+  width: 5%;
+  transform: rotate(-45deg);
+  transform-origin: right;
+}
+
+/*<div class="diagonalLine"></div>*/
