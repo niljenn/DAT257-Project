@@ -91,19 +91,42 @@ input:focus::placeholder {color: transparent;}
     -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
     box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0.4s ease 0s;
+    cursor: pointer;
 }
+
 
 .cbtn{
     width: 250px;
     height: 50px;
+    height: 60px;
     background: rgb(161, 205, 112);
     border: 3px solid rgb(141, 174, 103);
     border-radius: 30px;
     font-size: 20px;
     margin-top: 50px;
     margin-left: 100px;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: "Lato";
+    font-weight: bold;
+    color: rgb(232, 237, 234);
 }
 
 .cbtn:hover{
-    color: rgb(232, 237, 234);
+    background: rgb(46, 191, 114);
+    cursor: pointer;
 }
+
+
+.cbtn:active{
+    background: rgb(63, 152, 107);
+    cursor: pointer;
+}
+
+/*
+background: rgb(46, 191, 114);
+background: rgb(63, 152, 107);
+*/
