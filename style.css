@@ -79,7 +79,7 @@ input:focus::placeholder {color: transparent;}
     height: 50px;
     background: rgb(161, 205, 112);
     border: 3px solid rgb(141, 174, 103);
-    border-radius: 5px;
+    border-radius: 30px;
     font-size: 20px;
     margin-top: 50px;
     margin-left: 100px;
