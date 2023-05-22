@@ -28,6 +28,9 @@
 
 }
 
+a {
+  text-decoration: none;
+}
 
 .box:hover .box-info {
   color: rgb(255, 255, 255);
@@ -35,6 +38,10 @@
   -webkit-box-shadow: 0px 5px 40px -10px rgba(63, 152, 107, 1);
   box-shadow: 5px 40px -10px rgba(63, 152, 107, 1);
 
+}
+
+.text{
+  margin-left: 10px;
 }
 
 .box img {
@@ -60,6 +67,7 @@
   position: relative;
   width: 100px;
   height: 20px;
+  margin-right: 10px;
 }
 
 .rating-bar-container {
@@ -77,6 +85,7 @@
   height: 100%;
   width: 0;
   background-color: #287e00;
+  border-radius: 11px;
 }
 
 .rating-image {
@@ -87,6 +96,7 @@
   height: 100%;
   background-image: url("images/EcoScore_rating.png"); 
   background-size: cover;
+  border-radius: 10px;
 }
 
 .rating-container {
@@ -107,6 +117,7 @@
 
 .rating-bar-container {
   flex-grow: 1;
+  border-radius: 11px;
 }
 
 
