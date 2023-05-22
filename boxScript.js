@@ -255,6 +255,7 @@ function renderBoxes(){
     var boxInfo = document.createElement("div");
     boxInfo.className = "box-info";
     var name = document.createElement("p");
+    name.className = "box-name";
     name.textContent = boxData.name;
     boxInfo.appendChild(name);
     boxInfo.appendChild(ratingContainer);
