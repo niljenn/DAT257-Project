@@ -42,7 +42,7 @@
     height: 40px;
     float: left; /*To connect the bar to the button*/
     background: transparent;
-    border: 1px solid greenyellow;
+    border: 1px solid rgb(161, 205, 112);;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
     border-right: none;
@@ -71,8 +71,8 @@ input:focus::placeholder {color: transparent;}
 .srchbtn{
     width: 80px;
     height: 40px;
-    background: greenyellow;
-    border: 1px solid greenyellow;
+    background: rgb(161, 205, 112);
+    border: 1px solid rgb(161, 205, 112);;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
     color: black;
@@ -84,8 +84,8 @@ input:focus::placeholder {color: transparent;}
 }
 
 .srchbtn:hover{
-    color: rgb(139, 167, 111);
-    background: rgb(126, 243, 9);
+    color: rgb(252, 252, 251);
+    background: rgb(141, 174, 103);
     letter-spacing: 1px;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
@@ -102,29 +102,19 @@ input:focus::placeholder {color: transparent;}
     background: rgb(161, 205, 112);
     border: 3px solid rgb(141, 174, 103);
     border-radius: 30px;
-    font-size: 20px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 130px;
     font-size: 25px;
-    margin-top: 70px;
-    margin-bottom: 50px;
-    margin-left: 120px;
-    margin-right: 120px;
     font-family: "Lato";
     font-weight: bold;
     color: rgb(232, 237, 234);
 }
 
 .cbtn:hover{
-    background: rgb(46, 191, 114);
+    background: rgb(141, 174, 103);
     cursor: pointer;
 }
 
-
-.cbtn:active{
-    background: rgb(63, 152, 107);
-    cursor: pointer;
-}
 
 /*
 background: rgb(46, 191, 114);
