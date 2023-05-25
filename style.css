@@ -108,6 +108,7 @@ input:focus::placeholder {color: transparent;}
     font-family: "Lato";
     font-weight: bold;
     color: rgb(232, 237, 234);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .cbtn:hover{
