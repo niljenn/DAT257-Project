@@ -127,12 +127,6 @@ input:focus::placeholder {color: transparent;}
 */
 
 
-.smallpadding{
-    padding-top: 20px;
-    padding-right: 0px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-}
 
 .section{
     position:relative;
@@ -182,7 +176,7 @@ input:focus::placeholder {color: transparent;}
 }
 
 .wave.wave2{
-    animation: animate2 15s linear infinite;
+    animation: animate2 18s linear infinite;
     z-index: 999;
     opacity: 1;
     animation-delay: -5s;
@@ -198,10 +192,10 @@ input:focus::placeholder {color: transparent;}
 }
 
 .wave.wave4{
-    animation: animate2 15s linear infinite;
+    animation: animate2 18s linear infinite;
     z-index: 997;
     opacity: 0.5;
-    animation-delay: -25s;
+    animation-delay: -28s;
     bottom: 20px;
 }
 
